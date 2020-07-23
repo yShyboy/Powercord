@@ -21,6 +21,9 @@
 
 @import url(https://hellbound1337.github.io/dark-discord/src/source.css);
 
+/* @import url('https://raw.githack.com/mrrobboss/discord-css-snippets/master/modern_spotify.css'); */
+
+
 /* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* ||| BlurpleRecolor |||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
@@ -368,7 +371,7 @@ div[class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1G
 }
 
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
-/* ||| Rounder Image |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* ||| Round Image |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 
 .imageWrapper-2p5ogY img {
@@ -376,16 +379,15 @@ div[class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1G
 }
 
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
-/* ||| Rounder Embed Image |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* ||| Round Embed Image |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 
 .embedImage-2W1cML img, .embedImage-2W1cML video, .embedThumbnail-2Y84-K img, .embedThumbnail-2Y84-K video, .embedVideo-3nf0O9 img, .embedVideo-3nf0O9 video {
     border-radius: 16px;
 }
 
-
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
-/* ||| Channel Sidebar |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* ||| Server Channel Sidebar |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 
 #app-mount .sidebar-2K8pFh {
@@ -413,7 +415,6 @@ div[class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1G
 .container-1r6BKw.themed-ANHk51 {
     background: var(--channel-list);
 }
-
 
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* ||| Chat Bar ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
@@ -444,12 +445,8 @@ div[class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1G
     border-radius: 1rem;
 }
 
-
-
-
-
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
-/* ||| Server Link Embed ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* ||| Round Server Embed ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 
 
@@ -466,10 +463,8 @@ div[class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1G
     box-sizing: border-box;
 }
 
-
-
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
-/* ||| Message Menu ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* ||| Round Message Menu ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 
 
@@ -484,6 +479,145 @@ div[class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1G
     border-top-right-radius: 16px;
 }
 
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* ||| Round Code Menu |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+.markup-2BOw-j code {
+    background: var(--background-primary);
+    border: transparent;
+    border-radius: 24px;
+}
+
+.hljs .powercord-lines:after {
+    padding-right: 8px;
+    left: 3px;
+    border-right: 1px solid var(--background-secondary);
+}
+
+/* .powercord-codeblock-copy-btn {
+    color: #fff;
+    border-radius: 24px;
+    line-height: 20px;
+    padding: 0 16px;
+    font-weight: 600;
+    background: var(--background-secondary); /*
+}
+
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* ||| Round Searchbar |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+.privateChannels-1nO12o {
+    background-color: var(--channel-list);
+}
+
+
+.searchBar-6Kv8R2 .searchBarComponent-32dTOx {
+    border-radius: 24px;
+    background-color: var(--background-secondary);
+    text-align: center;
+}
+
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* ||| Private Channels |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+.scroller-1JbKMe {
+    background-color: var(--channel-list);
+}
+
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* ||| Round Profile Menu Hover ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+.panels-j1Uci_ {
+    background-color: transparent;
+    padding-top: 10px;
+    padding-right: 26px;
+    padding-bottom: 23px;
+    padding-left: 26px;
+}
+
+.container-3baos1 {
+    height: 44px;
+    background: var(--background-secondary);
+    border-radius: 24px;
+    padding-top: 0px;
+    padding-right: 50px;
+    padding-left: 10px;
+}
+
+.nameTag-3uD-yy {
+    margin-right: 0px;
+}
+
+.subtext-3CDbHg {
+    margin-right: -20px;
+}
+
+.panels-j1Uci_ > .container-3baos1 button[aria-checked="false"], .panels-j1Uci_ > .container-3baos1 button:not([role="switch"]) {
+  display: none;
+  background: var(--background-secondary);
+}
+
+.panels-j1Uci_ > .container-3baos1:hover button.button-14-BFJ{
+  display: block;
+}
+
+
+
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* ||| Round Inbox |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+.container-enaOkj {
+    border-radius: 24px;
+}
+
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* ||| Round Pinbox ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+.messagesPopoutWrap-1MQ1bW {
+
+    border-radius: 24px;
+
+}
+
+.messageGroupWrapper-o-Zw7G {
+
+    border-radius: 24px;
+
+}
+
+
+
+
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* ||| Round Friend Search |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+.quickswitcher-3JagVE {
+    border-radius: 24px;
+}
+
+.input-2VB9rf {
+    border-radius: 24px;
+    box-shadow: none;
+    background: var(--background-secondary);
+    height: 40px;
+}
+
+.result-oB0z-- {
+
+    border-radius: 24px;
+
+}
+
+.resultFocused-3aIoYe {
+    background: var(--background-secondary);
+}
 
 
 
@@ -494,12 +628,13 @@ div[class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1G
 
 
 
+.quickswitcher-3JagVE {
+    background-color: var(--background-primary);
+}
 
-
-
-
-
-
+.scroller-zPkAnE {
+    background-color: var(--background-primary);
+}
 
 
 
@@ -519,7 +654,16 @@ div[class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1G
 
 
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
-/* ||| Sorting ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* ||| Server Site |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+.headerImage-3X1tyY {
+    border-radius: 24px;
+}
+
+
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 
 .footer-1fjuF6{
@@ -853,15 +997,6 @@ div[class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1G
     background-color: var(--channel-primary);
 }
 
-
-
-
-
-
-
-
-
-
 #app-mount .chat-3bRxxu .messagesWrapper-3lZDfY .markup-2BOw-j > a, #app-mount .chat-3bRxxu .messagesWrapper-3lZDfY .markup-2BOw-j em > a, #app-mount .chat-3bRxxu .messagesWrapper-3lZDfY .markup-2BOw-j strong > a {
   color: rgba(var(--background-accent), 1);
   text-decoration: underline;
@@ -966,29 +1101,9 @@ div[class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1G
   border-bottom-left-radius: 24px;
 }
 
-
-
-
-
-
-
-
 .theme-dark .children-19S4PO:after {
     background: transparent;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .circleIconButton-jET_ig {
     color: #fff;
@@ -998,33 +1113,42 @@ div[class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1G
     background-color: transparent;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .selected-aXhQR6 .layout-2DM8Md {
     background-color: var(--channel-list);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.menu-3sdvDG {
+    border-radius: 24px;
+}
+
+
+
+.item-1tOPte {
+    border-radius: 24px;
 }
