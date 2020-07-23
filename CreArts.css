@@ -21,9 +21,6 @@
 
 @import url(https://hellbound1337.github.io/dark-discord/src/source.css);
 
-/* @import url('https://raw.githack.com/mrrobboss/discord-css-snippets/master/modern_spotify.css'); */
-
-
 /* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* ||| BlurpleRecolor |||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
@@ -144,27 +141,13 @@
   transition: filter .5s;
 }
 
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* ||| Server Site |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.headerImage-3X1tyY {
+    border-radius: 24px;
+}
 
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* ||| Quotes like embeds ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
@@ -619,47 +602,79 @@ div[class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1G
     background: var(--background-secondary);
 }
 
-
-
-
-
-
-
-
-
-
-.quickswitcher-3JagVE {
-    background-color: var(--background-primary);
-}
-
-.scroller-zPkAnE {
-    background-color: var(--background-primary);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
-/* ||| Server Site |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* ||| Round Status Selection ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 
-.headerImage-3X1tyY {
+.menu-3sdvDG {
+    border-radius: 20px;
+}
+
+.item-1tOPte {
     border-radius: 24px;
 }
+
+.description-2L932D {
+
+    margin-bottom: 0px;
+    font-size: 0px;
+    line-height: 0px;
+
+}
+
+.scroller-3BxosC {
+    padding: 8px 8px;
+}
+
+.layer-v9HyYc {
+    left: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
@@ -1131,24 +1146,10 @@ div[class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1G
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-.menu-3sdvDG {
-    border-radius: 24px;
+.quickswitcher-3JagVE {
+    background-color: var(--background-primary);
 }
 
-
-
-.item-1tOPte {
-    border-radius: 24px;
+.scroller-zPkAnE {
+    background-color: var(--background-primary);
 }
