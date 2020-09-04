@@ -353,6 +353,27 @@
 		border-radius: 90px;
 }
 
+.circleIconButton-jET_ig {
+    color: var(--Color001);
+    background-color: var(--Color003);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
@@ -732,14 +753,35 @@ foreignObject[mask="url(#svg-mask-avatar-status-mobile-80)"] + rect {
     display: none;
 }
 
+
+
+
+/* |||||||||||||||| */
+/* ||| Download ||| */
+/* |||||||||||||||| */
+
+.attachment-33OFj0 {
+    border: none;
+    background-color: var(--Color005);
+	border-radius: 24px;
+}
+
 /* ||||||||||||| */
 /* ||| Embed ||| */
 /* ||||||||||||| */
 
 .grid-1nZz7S {
-    background: var(--Color004);
+    background: var(--Color005);
     border-top-right-radius: 24px;
 	border-bottom-right-radius: 24px;
+}
+
+embedAuthorName-3mnTWj, .embedAuthorNameLink-1gVryT, .embedDescription-1Cuq9a, .embedFieldName-NFrena, .embedFieldValue-nELq2s, .embedFooterText-28V_Wb, .embedLink-1G1K1D, .embedProvider-3k5pfl, .embedTitle-3OXDkz, .embedTitleLink-1Zla9e {
+    text-align: justify;
+}
+
+.embedFull-2tM8-- {
+    border-left: 5px solid var(--Color001);
 }
 
 /* |||||||||||||||||||||||||| */
@@ -787,7 +829,7 @@ foreignObject[mask="url(#svg-mask-avatar-status-mobile-80)"] + rect {
 }
 
 .content-1o0f9g, .unreadPill-2HyYtt{
-    background: var(--Color005);
+    background: var(--Color003);
     width: 100%;
     padding: 10px;
     text-align: center;
@@ -880,9 +922,9 @@ foreignObject[mask="url(#svg-mask-avatar-status-mobile-80)"] + rect {
 /* ||||||||||||||||||||||| */
 
 .markup-2BOw-j code {
-    background: var(--Color004);
+    background: var(--Color005);
     border: transparent;
-    border-radius: 24px;
+    border-radius: 8px;
 }
 
 .hljs .powercord-lines:after {
