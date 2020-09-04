@@ -8,9 +8,9 @@
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 
-@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css);
-
 @import url("https://gibbu.github.io/BetterDiscord-Themes/HorizontalServerlist/base.css");
+
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css);
 
 /* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* ||| BlurpleRecolor |||||||||||||||||||||||||||||||||||||||||||||||||| */
@@ -26,7 +26,7 @@
 /* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 
 :root {
---HSL-size:50px; /* Size of Server Icons */
+--HSL-size:54px; /* Size of Server Icons */
 --HSL-spacing: 14px; /* Space between servers */
 --HSL-roundness: 100%; /* Server non hovered and selected */
 --HSL-roundnessHover: 100%; /* Server hovered */
@@ -39,18 +39,29 @@
 .theme-dark,
 :root {
   
-/* New */
-   	--Color001: #CD0952 !important; /* Acent 01 */
+/* Accenr */
+
+   	--Color001: #CD0952 !important; /* Accent 01 (DND)*/
+	--Color010: #27D8A1 !important; /* Accent 02 (Online)*/
+	--Color011: #FFD848 !important; /* Accent 03 (Idle)*/
+	--Color012: #7733D5 !important; /* Accent 04 (Stream)*/
+	
+/* Gray */
+
 	--Color002: #3D4351 !important; /* Gray 01 */
 	--Color003: #303440 !important; /* Gray 02 */
 	--Color004: #2C303A !important; /* Gray 03 */
 	--Color005: #252830 !important; /* Gray 04 */
+
+	
+/* Text */	
+
 	--Color006: #FFFFFF !important; /* White */
 	--Color007: #C8CDDB !important; /* Active */
 	--Color008: #989FB1 !important; /* Text */
 	--Color009: #6C7180 !important; /* Muted */
-	--Color010: #27D8A1 !important; /* Acent 02 */
-	--Color011: #2E323D  !important; /* Gray 05 */
+
+
   
   
 /* Old */  
@@ -83,46 +94,22 @@
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
-/* ||| Windows Menu ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
-/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
-/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
-/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
-
-#app-mount > div[class*="titleBar"] > div[class*="wordmark"] {
-  margin-top: .2rem;
-}
-
-#app-mount > div[class*="titleBar"] {
-  display: grid;
-  justify-content: right;
-  grid-template-columns: min-content min-content min-content;
-  direction: rtl;
-  height: 1.72rem;
-  margin: 5px 0px 0px 0px;
-}
-
-#app-mount > div[class*="titleBar"] > div[class*="winButton"] {
-  display: grid;
-  width: 2.9rem;
-  height: 1.72rem;
-}
-
-#app-mount > div[class*="titleBar"] > div[class*="winButton"] > svg {
-  height: 100%;
-  width: 100%;
-}
-
-#app-mount > div[class*="app"] {
-  margin-top: -.18rem;
-}
-
-/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
-/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
-/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* ||| User Settings |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+.sidebarRegionScroller-3MXcoP {
+    background: var(--Color003);
+}
+
+.contentRegionScroller-26nc1e {
+    background-color: var(--Color004);
+}
+
+.divider-3573oO {
+    border-top: 2px solid var(--Color003);
+}
 
 /* ||||||||||||||||||||||||||| */
 /* ||| My Account Settings ||| */
@@ -193,6 +180,63 @@
     border: none;
 }
 
+/* |||||||||||||||||||||||| */
+/* ||| Privacy & Safety ||| */
+/* |||||||||||||||||||||||| */
+
+
+
+.formNotice-2_hHWR {
+    box-sizing: border-box;
+	border-radius: 90px;
+}
+
+/* ||||||||||||||||||||||| */
+/* ||| Authorized Apps ||| */
+/* ||||||||||||||||||||||| */
+
+/* ||||||||||||||||||| */
+/* ||| Connections ||| */
+/* ||||||||||||||||||| */
+
+/* ||||||||||||||| */
+/* ||| Billing ||| */
+/* ||||||||||||||| */
+
+/* ||||||||||||||||||||| */
+/* ||| Subscriptions ||| */
+/* ||||||||||||||||||||| */
+
+/* |||||||||||||||||||||| */
+/* ||| Gift Inventory ||| */
+/* |||||||||||||||||||||| */
+
+/* |||||||||||||||||||| */
+/* ||| Server Boost ||| */
+/* |||||||||||||||||||| */
+
+/* ||||||||||||||||| */
+/* ||| HypeSquad ||| */
+/* ||||||||||||||||| */
+
+/* ||||||||||||||||||||| */
+/* ||| Voice & Video ||| */
+/* ||||||||||||||||||||| */
+
+/* ||||||||||||||| */
+/* ||| Overlay ||| */
+/* ||||||||||||||| */
+
+/* ||||||||||||||||||||| */
+/* ||| Notifications ||| */
+/* ||||||||||||||||||||| */
+
+/* |||||||||||||||| */
+/* ||| Keybinds ||| */
+/* |||||||||||||||| */
+
+
+
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
@@ -201,14 +245,46 @@
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 
-/* Round Server Selection*/
+
+
+
+/* |||||||||||||||||||||||||||||| */
+/* ||| Round Server Selection ||| */
+/* |||||||||||||||||||||||||||||| */
 
 .expandedFolderBackground-2sPsd- {
     background: var(--Color004);
 }
 
+.circleIconButton-jET_ig {
+    color: var(--Color008);
+    background-color: var(--Color003);
+}
 
+.childWrapper-anI2G9 {
+    background-color: var(--Color003);
+    color: var(--Color008);
+}
 
+/* |||||||||||||||||||||||||||||||| */
+/* ||| Folder color when Closed ||| */
+/* |||||||||||||||||||||||||||||||| */
+
+.closedFolderIconWrapper-15K9MK {
+  background-color: var(--Color005);
+}
+
+.expandedFolderBackground-2sPsd- {
+    position: absolute;
+    top: 0;
+    left: 12px;
+    bottom: 8px;
+    width: 48px;
+    border-radius: 24px;
+    -webkit-transition: background-color .15s ease-out;
+    transition: background-color .15s ease-out;
+    background: transparent;
+}
 
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
@@ -225,11 +301,40 @@
 
 .clickable-2ap7je .header-2o-2hj {
     background: var(--Color003);
+	height: 60px;
 }
 .container-1r6BKw.themed-ANHk51 {
     background: var(--Color003);
 	height: 60px;
 }
+
+.header-2o-2hj {
+    position: relative;
+    font-weight: 500;
+    padding: 0 16px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    z-index: 3;
+    -webkit-transition: background-color .1s linear;
+    transition: background-color .1s linear;
+    color: var(--header-primary);
+    -webkit-box-shadow: var(--elevation-low);
+    box-shadow: var(--elevation-low);
+}
+
+
+
+
+
+
+
+
 
 /* |||||||||||||||||||||| */
 /* ||| Remove Element ||| */
@@ -305,6 +410,23 @@
 .searchBar-3dMhjb {
     background-color: transparent;
 }
+
+/* ||||||||||||||||||||| */
+/* ||| Follow Button ||| */
+/* ||||||||||||||||||||| */
+
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
+    background: var(--Color001);
+}
+
+/* ||||||||||||||||||||||| */
+/* ||| Guild Separator ||| */
+/* ||||||||||||||||||||||| */
+
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ .guildSeparator-3s64Iy {
+    display: none;
+}
+
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
@@ -367,9 +489,6 @@
     background: var(--Color002);
 }
 
-
-
-
 .selected-aXhQR6 .layout-2DM8Md {
     background: var(--Color004);
 }
@@ -382,23 +501,45 @@
 .wrapper-3t9DeA {
     background: var(--Color002);
 }
-/* |||||||||||||||||| */
-/* ||| Active Now ||| */
-/* |||||||||||||||||| */
 
-.wrapper-3D2qGf {
-    background-color: var(--Color004);
-  	border-radius: 24px;
-}
+/* ||||||||||||||||||||||||||||| */
+/* ||| Active Now Background ||| */
+/* ||||||||||||||||||||||||||||| */
 
 .nowPlayingColumn-2sl4cE {
     background: var(--Color003);
 }
 
+.wrapper-3D2qGf {
+    background-color: var(--Color005);
+  	border-radius: 24px;
+}
 
 .emptyCard-1RJw8n {
     background: var(--Color004);
-    border-radius: 24px;
+}
+
+/* |||||||||||||||||||||||||| */
+/* ||| Active Now Spotify ||| */
+/* |||||||||||||||||||||||||| */
+
+.section-2gLsgF {
+    position: relative;
+    padding: 12px;
+    border-radius: 90px;
+	background: var(--Color003);
+}
+
+.theme-dark .inset-3sAvek {
+    background-color: transparent;
+}
+
+.activitySectionAssets-32WyHu .largeImage-DLXk-f {
+    width: 32px;
+    height: 32px;
+    border-radius: 90px;
+    -o-object-fit: cover;
+    object-fit: cover;
 }
 
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
@@ -540,6 +681,36 @@
 }
 
 
+/* ||||||||||||||||||| */
+/* ||| New Unreads ||| */
+/* ||||||||||||||||||| */
+
+
+.unread-1xRYoj {
+    background-color: var(--Color001);
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
@@ -563,25 +734,27 @@
 /* |||||||||||||||||||||||||||||||||||| */
 
 .header-QKLPzZ rect[mask="url(#svg-mask-status-online)"], .userPopout-3XzG_A rect[mask="url(#svg-mask-status-online)"] {
-  fill: #43b581;
+	fill: var(--Color010);
 }
 
 .wrapper-3t9DeA rect[mask="url(#svg-mask-status-idle)"] {
-  fill: #faa61a;
-  mask: url(#svg-mask-status-online);
+	fill: var(--Color011);
+	mask: url(#svg-mask-status-online);
 }
 
 .wrapper-3t9DeA rect[mask="url(#svg-mask-status-dnd)"] {
-  fill: #f04747;
-  mask: url(#svg-mask-status-online);
+	fill: var(--Color001);
+	mask: url(#svg-mask-status-online);
 }
 
 .wrapper-3t9DeA rect[mask="url(#svg-mask-status-streaming)"]{
+	fill: var(--Color012);
     mask: url(#svg-mask-status-online);
 }
 
 .wrapper-3t9DeA rect[mask="url(#svg-mask-status-offline)"] {
-  mask: url(#svg-mask-status-online);
+	fill: var(--Color010);
+	mask: url(#svg-mask-status-online);
 }
 
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
@@ -635,13 +808,15 @@
 	margin-right: 40px;
 }
 
-/* |||||||||||||||||| */
+/* |||||||||||||||||||| */
 /* ||| Text Spacing ||| */
-/* |||||||||||||||||| */
+/* |||||||||||||||||||| */
 
 .group-spacing-16 .groupStart-23k01U {
-    margin-top: 40px;
+    margin-top: 30px;
 }
+
+
 
 /* |||||||||||||||||||| */
 /* ||| No Scrollbar ||| */
@@ -651,9 +826,6 @@
     display: none;
 }
 
-
-
-
 /* |||||||||||||||| */
 /* ||| Download ||| */
 /* |||||||||||||||| */
@@ -662,8 +834,16 @@
     border: none;
     background-color: var(--Color005);
 	border-radius: 24px;
+	
 }
 
+/* |||||||||||||||||||| */
+/* ||| Round Image  ||| */
+/* |||||||||||||||||||| */
+
+.imageWrapper-2p5ogY img {
+    border-radius: 16px;
+}
 /* ||||||||||||| */
 /* ||| Embed ||| */
 /* ||||||||||||| */
@@ -691,6 +871,7 @@ embedAuthorName-3mnTWj, .embedAuthorNameLink-1gVryT, .embedDescription-1Cuq9a, .
     border-color: var(--Color003);
  
 }
+
 .blockquoteContainer-U5TVEi blockquote {
     border: 2px solid;
     border-top-right-radius: 24px;
@@ -699,6 +880,7 @@ embedAuthorName-3mnTWj, .embedAuthorNameLink-1gVryT, .embedDescription-1Cuq9a, .
    	margin-bottom: 20px;
   
 }
+
 .blockquoteContainer-U5TVEi .blockquoteDivider-2hH8H6 {
     border-radius: 4px 0px 0px 4px;
   	background-color: var( --Color001);
@@ -716,6 +898,18 @@ embedAuthorName-3mnTWj, .embedAuthorNameLink-1gVryT, .embedDescription-1Cuq9a, .
   border-bottom-left-radius: 24px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
 /* ||||||||||||||||||||||| */
 /* ||| Message Divider ||| */
 /* ||||||||||||||||||||||| */
@@ -723,13 +917,14 @@ embedAuthorName-3mnTWj, .embedAuthorNameLink-1gVryT, .embedDescription-1Cuq9a, .
 :root .divider-JfaTT5{
     margin: 0 56px;
     border: none;
-    height: unset;
+    height: 40px;
+
 }
 
 .content-1o0f9g, .unreadPill-2HyYtt{
     background: var(--Color003);
-    width: 100%;
-    padding: 10px;
+    width: 140%;
+    padding: 12px;
     text-align: center;
     border-radius: 90px;
 	padding-right: 50px;
@@ -737,7 +932,7 @@ embedAuthorName-3mnTWj, .embedAuthorNameLink-1gVryT, .embedDescription-1Cuq9a, .
 
 .unreadPill-2HyYtt{
     position: relative;
-    color: #f04747;
+    color: var(--Color008);
     top:0;
 }
 
@@ -823,36 +1018,6 @@ embedAuthorName-3mnTWj, .embedAuthorNameLink-1gVryT, .embedDescription-1Cuq9a, .
     border-right: 1px solid var(--Color005);
 }
 
-/* |||||||||||||||||||| */
-/* ||| Round Image  ||| */
-/* |||||||||||||||||||| */
-
-.imageWrapper-2p5ogY img {
-    border-radius: 16px;
-}
-/* ||||||||||||||||||||||||| */
-/* ||| Round Embed Image ||| */
-/* ||||||||||||||||||||||||| */
-
-.embedImage-2W1cML img, .embedImage-2W1cML video, .embedThumbnail-2Y84-K img, .embedThumbnail-2Y84-K video, .embedVideo-3nf0O9 img, .embedVideo-3nf0O9 video {
-    border-radius: 16px;
-}
-
-/* |||||||||||||||||||||||||| */
-/* ||| Round Server Embed ||| */
-/* |||||||||||||||||||||||||| */
-
-.wrapper-35wsBm {
-    border-radius: 16px;
-}
-
-.wrapper-35wsBm {
-    background: var(--Color003);
-    border-radius: 24px;
-    width: 440px;
-}
-
-
 /* |||||||||||||||||||||| */
 /* ||| No Chat Header ||| */
 /* |||||||||||||||||||||| */
@@ -863,6 +1028,41 @@ embedAuthorName-3mnTWj, .embedAuthorNameLink-1gVryT, .embedDescription-1Cuq9a, .
 
 .container-3zqIcM {
 	display: none;
+}
+
+/* |||||||||||||||||| */
+/* ||| Emoji Info ||| */
+/* |||||||||||||||||| */
+
+.emojiSection-3Fb9ix {
+    background: var(--Color005);
+}
+
+.container-ZRw2kD {
+    width: auto;
+    border-radius: 24px;
+    background: var(--Color005);
+}
+
+/* |||||||||||||||||| */
+/* ||| New Member ||| */
+/* |||||||||||||||||| */
+
+.iconSize-2tmqqh {
+	Display: none;
+    width: 1rem;
+    height: 1rem;
+}
+
+
+.container-3-pyIM {
+	background: var(--Color003);
+	border-radius: 90px;
+	padding: 8px
+}
+
+.content-2M3n_H {
+	padding-left: 20px;
 }
 
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
@@ -900,26 +1100,11 @@ embedAuthorName-3mnTWj, .embedAuthorNameLink-1gVryT, .embedDescription-1Cuq9a, .
     left: 28px;
 }
 
-
-/* |||||||||||||||||||| */
-/* ||| Media Button ||| */
-/* |||||||||||||||||||| */
-
-
-/* |||||||||||||||||||| */
-/* ||| Emoji Button ||| */
-/* |||||||||||||||||||| */
-
-
-
-
-
 /* ||||||||||||||||||||||||||||||| */
 /* ||| Remove Gif & Nitro Icon ||| */
 /* ||||||||||||||||||||||||||||||| */
 
 .buttonWrapper-1ZmCpA {display: none;}
-
 
 /* ||||||||||||||||||||||||||||||| */
 /* ||| Remove Gif & Nitro Icon ||| */
@@ -1128,6 +1313,26 @@ div[class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1G
     width: 800px;
 }
 
+
+
+
+
+/* |||||||||||||||||||| */
+/* ||| Color Picker ||| */
+/* |||||||||||||||||||| */
+
+.theme-dark .colorPickerCustom-2CWBn2 {
+    background: var(--Color004);
+	border: none;
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.backdrop-1wrmKB {
+	opacity: 0.1;
+    background: #fff;
+    transform: translateZ(0px);
+
+}
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
@@ -1136,10 +1341,29 @@ div[class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1G
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 
-/*Round Header*/
+/* |||||||||||||||||| */
+/* ||| Background ||| */
+/* |||||||||||||||||| */
+
+.theme-dark .pageWrapper-1PgVDX {
+    background-color: var(--Color003);
+}
+
+/* |||||||||||||||||||| */
+/* ||| Round Header ||| */
+/* |||||||||||||||||||| */
 
 .headerImage-3X1tyY {
     border-radius: 24px;
+}
+
+/* ||||||||||||||||||| */
+/* ||| Server Card ||| */
+/* ||||||||||||||||||| */
+
+.theme-dark .card-3DjzTQ, .theme-dark .iconMask-3b8GzQ {
+    background-color: var(--Color004);
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
@@ -1150,7 +1374,10 @@ div[class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1G
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 
-/*Button zoom effect*/
+
+/* |||||||||||||||||||||||||| */
+/* ||| Button zoom effect ||| */
+/* |||||||||||||||||||||||||| */
 
 .button-14-BFJ, .grow-q77ONN, .iconItem-1-bXkn, .closeButton-2GCmT5, .icon-22AiRD, .addButton-1BORrom, .closeButton-1tv5uR {
   transition: all .2s ease-in-out;
@@ -1159,11 +1386,3 @@ div[class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1G
 .button-14-BFJ:hover, .iconItem-1-bXkn:hover, .closeButton-2GCmT5:hover, .icon-22AiRD:hover, .addButton-1BORro:hover, .closeButton-1tv5uR:hover {
     transform: scale(1.2);
 }
-
-
-
-
-
-
-
-
