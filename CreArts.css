@@ -39,7 +39,7 @@
 .theme-dark,
 :root {
   
-/* Accenr */
+/* Accent */
 
    	--Color001: #CD0952 !important; /* Accent 01 (DND)*/
 	--Color010: #27D8A1 !important; /* Accent 02 (Online)*/
@@ -760,62 +760,94 @@
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 
 
-/* ||||||||||||| */
-/* ||| Round ||| */
-/* ||||||||||||| */
 
-.panels-j1Uci_ {
-    background-color: transparent;
-    padding-top: 0px;
-    padding-right: 26px;
-    padding-bottom: 23px;
-    padding-left: 26px;
-}
 
-/* |||||||||||||||||| */
-/* ||| Background ||| */
-/* |||||||||||||||||| */
+/* |||||||||||| */
+/* ||| Game ||| */
+/* |||||||||||| */
 
-.container-3baos1 {
-    height: 44px;
-    background: var(--Color005);
-    border-radius: 24px;
-    padding-top: 0px;
-    padding-right: 50px;
-    padding-left: 10px;
-}
-
-/* ||||||||||||||||| */
-/* ||| Full Name ||| */
-/* ||||||||||||||||| */
-
-.nameTag-3uD-yy {
-    margin-right: 0px;
-}
-
-.subtext-3CDbHg {
-    margin-right: -20px;
+.panel-24C3ux {
+	position: absolute;
+	background: var(--Color004);
+	border-radius: 24px;
+	padding-top: 14px;
+	padding-bottom: 150px;
+	z-index: 90;
+	width: 220px;
+	bottom: 16px;
+	left: 6px;
 }
 
 /* ||||||||||||| */
-/* ||| Hover ||| */
+/* ||| Voice ||| */
 /* ||||||||||||| */
+
+.container-1giJp5 {
+	position: absolute;
+	background: var(--Color005);
+	border-radius: 24px;
+	padding-top: 14px;
+	padding-bottom: 50px;
+	z-index: 90;
+	width: 220px;
+	bottom: 20px;
+	left: 6px;
+}
+
+.button-1YfofB.buttonColor-7qQbGO {
+    background-color: var(--Color003);
+    color: var(--Color007);
+}
+
+/* ||||||||||||||| */
+/* ||| Profile ||| */
+/* ||||||||||||||| */
+
+/* Background */
+
+.container-3baos1, .panels-j1Uci_ {
+	position: absolute;
+	background: var(--Color005);
+	border-radius: 90px;
+	z-index: 90;
+	width: 220px;
+	bottom: 12px;
+	left: 6px;
+}
+
+/* Hover */
 
 .panels-j1Uci_ > .container-3baos1:hover button.button-14-BFJ{
   display: block;
 }
 
-/* |||||||||||||||||||||||| */
-/* ||| Hover Background ||| */
-/* |||||||||||||||||||||||| */
 
 .panels-j1Uci_ > .container-3baos1 button[aria-checked="false"], .panels-j1Uci_ > .container-3baos1 button:not([role="switch"]) {
   display: none;
   background: var(--Color005);
-  margin: 0px;
-      border-radius: 0px;
 }
 
+/*
+.nameTag-3uD-yy.canCopy-2VBT7N {
+  display: none;
+}
+*/
+
+/* ||||||||||||||| */
+/* ||| Spotify ||| */
+/* ||||||||||||||| */
+
+.powercord-spotify .spotify-seek-bar, .spotify-seek, .spotify-seek-bar-progress, .spotify-seek-bar-progress {
+display: none;
+}
+
+.powercord-spotify {
+	position: absolute;
+	z-index: 90;
+	width: 220px;
+	bottom: 220px;
+
+}
 
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
@@ -824,6 +856,16 @@
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+.scroller-2wx7Hm {
+    z-index: 1;
+    padding-right: 8px;
+	padding-bottom: 280px;
+}
+
+
+
+
 
 .container-PNkimc {
     background-color: var(--Color003);
@@ -844,9 +886,10 @@
 	z-index: 3;
 }
 
-
-
-
+.sidebar-2K8pFh {
+    width: 260px;
+    background: transparent;
+}
 
 
 /* |||||||||||||||||| */
@@ -858,16 +901,9 @@
 }
 
 
-
 .clickable-2ap7je {
     background: var(--Color004);
 }
-
-.channelTextArea-rNsIhG {
-    margin-bottom: 24px;
-    background-color: var(--Color004);
-}
-
 
 
 /* |||||||||||| */
@@ -922,27 +958,6 @@
     opacity: 1;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
@@ -957,6 +972,10 @@
 
 .members-1998pB, .members-1998pB>div {
     background-color: var(--Color003);
+}
+
+.members-1998pB {
+	padding-bottom: 200px;
 }
 
 /* |||||||||||||||||||||||||||||||||||| */
@@ -983,7 +1002,7 @@
 }
 
 .wrapper-3t9DeA rect[mask="url(#svg-mask-status-offline)"] {
-	fill: var(--Color010);
+	fill: var(--Color004);
 	mask: url(#svg-mask-status-online);
 }
 
@@ -1153,7 +1172,7 @@ embedAuthorName-3mnTWj, .embedAuthorNameLink-1gVryT, .embedDescription-1Cuq9a, .
 
 .content-1o0f9g, .unreadPill-2HyYtt{
     background: var(--Color003);
-    width: 140%;
+    width: 101%;
     padding: 12px;
     text-align: center;
     border-radius: 90px;
@@ -1308,9 +1327,19 @@ embedAuthorName-3mnTWj, .embedAuthorNameLink-1gVryT, .embedDescription-1Cuq9a, .
 /* |||||||||||||||||| */
 
 .scrollableContainer-2NUZem {
+	position: relative;
     background: var(--Color005);
     max-height: 60vh;
-  	border-radius: 24px;
+  	border-radius: 30px;
+	z-index: 3;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.channelTextArea-rNsIhG {
+    margin-bottom: 25px;
+    background-color: var(--Color004);
+
 }
 
 .theme-dark .form-2fGMdU:before {
@@ -1336,17 +1365,6 @@ embedAuthorName-3mnTWj, .embedAuthorNameLink-1gVryT, .embedDescription-1Cuq9a, .
 
 .buttonWrapper-1ZmCpA {display: none;}
 
-/* ||||||||||||||||||||||||||||||| */
-/* ||| Remove Gif & Nitro Icon ||| */
-/* ||||||||||||||||||||||||||||||| */
-
-.form-2fGMdU {
-	background: transparent;
-    padding-left: 24px;
-    padding-right: 24px;
-    margin-top: 12px;
-
-}
 
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
@@ -1397,6 +1415,8 @@ div[class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1G
     height: 100%;
     background: #000;
 }
+
+
 
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
@@ -1563,6 +1583,93 @@ div[class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1G
     transform: translateZ(0px);
 
 }
+
+
+
+/* |||||||||||||||||||| */
+/* ||| Emoji Picker ||| */
+/* |||||||||||||||||||| */
+
+.positionContainer-DEuh7X {
+    height: 444px;
+    z-index: 1;
+}
+
+/* Background */
+
+.contentWrapper-SvZHNd {
+    background: var(--Color005);
+    border-radius: 24px;
+	padding-bottom: 36px;
+    height: 107%;
+	box-shadow: none;
+}
+
+/* Search */
+
+
+
+.container-2XeR5Z {
+    background-color: var(--Color004);
+	border-radius: 90px;
+}
+
+.input-3Xdcic {
+    background-color: var(--Color004);
+	border-radius: 90px;
+}
+
+/* Header */
+
+.wrapper-1-Fsb8 {
+    background: transparent;
+	border-radius: 24px;
+	padding: 0px;
+}
+
+.inspector-sdLnLS {
+    background: var(--Color003);
+	border-radius: 24px;
+}
+
+/* Button */
+
+.navButtonActive-1MkytQ {
+    background-color: var(--Color001);
+    color: #fff;
+}
+
+/* Inspector */
+
+.inspector-sdLnLS {
+    background: var(--Color004);
+}
+
+
+/* Icon */
+
+.categoryItemDefaultCategorySelected-_HCKoz, .categoryItemDefaultCategorySelected-_HCKoz:hover {
+    background-color: var(--Color003);
+	border-radius: 90px;
+	
+}
+
+
+/* |||||||||||||| */
+/* ||| Stream ||| */
+/* |||||||||||||| */
+
+
+.selectorButtonSelected-t5V9On {
+    background: var(--Color001);
+}
+
+.card-2Mz_4z {
+    background: var(--Color003);
+	border: none;
+	border-radius: 90px;
+}
+
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
@@ -1595,6 +1702,31 @@ div[class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1G
     background-color: var(--Color004);
 	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
+
+
+
+
+
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* ||| Powercord |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+
+.powercord-entities-manage-tabs {
+    background-color: var(--Color005);
+	border-radius: 24px;
+}
+
+.lookFilled-1Gx00P.colorRed-1TFJan {
+    color: #fff;
+    background-color: var(--Color001);
+}
+
+
 
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
@@ -1647,3 +1779,13 @@ div[class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1G
 #app-mount > div[class*="app"] {
   margin-top: -.18rem;
 }
+
+
+
+
+
+
+
+
+
+
