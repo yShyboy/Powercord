@@ -1638,8 +1638,8 @@ div[class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1G
 .contentWrapper-SvZHNd {
     background: var(--Color005);
     border-radius: 24px;
-	padding-bottom: 36px;
-    height: 107%;
+	padding-bottom: 40px;
+    height: 111%;
 	box-shadow: none;
 }
 
@@ -1680,9 +1680,8 @@ div[class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1G
 /* Inspector */
 
 .inspector-sdLnLS {
-    background: var(--Color004);
+    background: transparent;
 }
-
 
 /* Icon */
 
