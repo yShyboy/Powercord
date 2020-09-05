@@ -91,6 +91,33 @@
     --channel-list: #303440 !important;
 }
 
+
+
+
+
+
+
+
+
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* ||| Blur ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+/*
+.app-1q1i1E {
+	filter: blur(4px);
+}
+
+.app-1q1i1E:hover {
+	filter: blur(0px);
+	transition: filter .3s;
+}
+*/
+
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
@@ -98,6 +125,48 @@
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+
+
+.side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ {
+    background-color: var(--Color001);
+}
+.side-8zPYf6 .item-PXvHYJ {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-bottom: 2.2px;
+    border-radius: 90px;
+}
+
+/* |||||||||||||||||||| */
+/* ||| Aspect ratio ||| */
+/* |||||||||||||||||||| */
+
+
+/*
+.sidebarRegion-VFTUkN {
+    flex: 0px;
+    z-index: 1;
+}
+
+.contentColumn-2hrIYH, .customColumn-Rb6toI {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    max-width: 740px;
+    min-width: 460px;
+    min-height: 100%;
+}
+*/
+
+
+
+
+
+.formNotice-2_hHWR {
+    box-sizing: border-box;
+	border-radius: 24px;
+}
 
 .sidebarRegionScroller-3MXcoP {
     background: var(--Color003);
@@ -114,6 +183,22 @@
 /* ||||||||||||||||||||||||||| */
 /* ||| My Account Settings ||| */
 /* ||||||||||||||||||||||||||| */
+
+
+.theme-dark .userSettingsAccount-2eMFVR .viewBody-2Qz-jg {
+	filter: blur(4px);
+}
+
+.theme-dark .userSettingsAccount-2eMFVR .viewBody-2Qz-jg:hover {
+	filter: blur(0px);
+	transition: filter .3s;
+}
+
+
+
+
+
+
 
 .userSettingsAccount-2eMFVR .userInfoEditing-1CEzdT, .userSettingsAccount-2eMFVR .userInfoViewing-16kqK3 {
     padding: 20px;
@@ -184,12 +269,14 @@
 /* ||| Privacy & Safety ||| */
 /* |||||||||||||||||||||||| */
 
-
-
-.formNotice-2_hHWR {
-    box-sizing: border-box;
-	border-radius: 90px;
+.card-3Qj_Yx {
+	background: var(--Color005);
+    border-radius: 24px;	
+    position: relative;
+    border: none;;
 }
+
+
 
 /* ||||||||||||||||||||||| */
 /* ||| Authorized Apps ||| */
@@ -199,21 +286,143 @@
 /* ||| Connections ||| */
 /* ||||||||||||||||||| */
 
+.accountBtn-2Nozo3 .accountBtnInner-sj5jLs {
+    background-color: var(--Color003);
+	border-radius: 90px;
+}
+
+.theme-dark .elevationLow-2lY09M {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+	border-radius: 24px;
+}
+
+.connectionHeader-2MDqhu {
+    background: transparent;
+}
+
+.connectionDelete-2Odoln {
+    border: 1px solid #ffffff8d;
+    border-radius: 90px;
+}
+
 /* ||||||||||||||| */
 /* ||| Billing ||| */
 /* ||||||||||||||| */
+
+.subText-V8PTt8 {
+	filter: blur(2px);
+}
+
+.subText-V8PTt8:hover {
+	filter: blur(0px);
+	transition: filter .3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Indicator */
+
+.theme-dark .defaultIndicator-G3c16x {
+    background: var(--Color002);
+    color: var(--Color007);
+	border-radius: 90px;
+}
+
+.theme-dark .premiumIndicator-1XvbfM {
+    background: var(--Color001);
+    color: #fff;
+	border-radius: 90px;
+}
+
+
+
+
+
+
+
+
+.paymentPane-3bwJ6A {
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+.theme-dark .paymentPane-3bwJ6A {
+    background-color: var(--Color005);
+    color: var(--Color008);
+}
+
+.theme-dark .paginator-166-09 {
+    background-color: var(--Color005);
+}
+
+.theme-dark .payment-xT17Mq {
+    background-color: var(--Color003);
+    color: var(--Color008);
+}
+
+.theme-dark .bottomDivider-1K9Gao {
+    border-bottom-color: var(--Color003);
+}
+
+.theme-dark .expandedInfo-3kfShd {
+    background: var(--Color004);
+	border-radius: 24px;
+}
+
+.theme-dark .codeRedemptionRedirect-1wVR4b {
+    color: #fff;
+    background: var(--Color005);
+    border: none;
+}
+
+
+
+
 
 /* ||||||||||||||||||||| */
 /* ||| Subscriptions ||| */
 /* ||||||||||||||||||||| */
 
+
+
+
 /* |||||||||||||||||||||| */
 /* ||| Gift Inventory ||| */
 /* |||||||||||||||||||||| */
 
+.header-1RC2Wb {
+    background: var(--Color005);
+	border-radius: 24px;
+}
+
 /* |||||||||||||||||||| */
 /* ||| Server Boost ||| */
 /* |||||||||||||||||||| */
+
+.guildHeader-3nh5RK {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: var(--background-tertiary);
+    position: relative;
+}
+
+
+
 
 /* ||||||||||||||||| */
 /* ||| HypeSquad ||| */
@@ -557,7 +766,7 @@
 
 .panels-j1Uci_ {
     background-color: transparent;
-    padding-top: 10px;
+    padding-top: 0px;
     padding-right: 26px;
     padding-bottom: 23px;
     padding-left: 26px;
@@ -616,6 +825,30 @@
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 
+.container-PNkimc {
+    background-color: var(--Color003);
+	padding-right: 10px;
+    padding-left: 10px;
+}
+
+.modeSelected-1zApJ_ .content-3at_AU, .modeSelected-1zApJ_:hover .content-3at_AU {
+    background-color: var(--Color004);
+	border-radius: 90px;
+}
+
+.header-2o-2hj {
+	color: var(--Color007);
+	padding-right: 10px;
+    padding-left: 10px;
+    box-shadow: none;
+	z-index: 3;
+}
+
+
+
+
+
+
 /* |||||||||||||||||| */
 /* ||| Background ||| */
 /* |||||||||||||||||| */
@@ -624,9 +857,7 @@
     background: var(--Color003);
 }
 
-.container-PNkimc {
-    background-color: var(--Color003);
-}
+
 
 .clickable-2ap7je {
     background: var(--Color004);
@@ -719,7 +950,6 @@
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
-
 
 /* |||||||||||||||||| */
 /* ||| Background ||| */
