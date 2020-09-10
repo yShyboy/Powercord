@@ -429,7 +429,7 @@
 
 .scroller-2TZvBN {
     background-color: var(--Color004);
-	border-radius: 24px;
+	border-radius: 0 24px 24px 0;
 	margin-bottom: 25px;
 	margin-top: 12px;
 
