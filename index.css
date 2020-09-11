@@ -1,0 +1,2085 @@
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||                                                                                               |||||||| */
+/* ||| This is the official CreArts theme created by CorellanStoma#1996                              |||||||| */
+/* |||                                                                                               |||||||| */
+/* ||| CreArts Theme v4.0 (Dark)                                                                     |||||||| */
+/* |||                                                                                               |||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css");
+
+@import url('https://discord-custom-covers.github.io/usrbg/dist/usrbg.css');
+
+
+
+/* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* ||| BlurpleRecolor |||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+:root {
+--accentcolor: 205,9,82;
+--linkcolor: 205,9,82;
+}
+
+/* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* ||| New Settings |||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+.theme-dark,
+:root {
+ 
+/* Font */
+
+ --font: 'Oxygen';
+
+/* Accent */
+
+   	--Color001: #CD0952 !important; /* Accent 01 */
+
+
+/* Gray */
+
+	--Color002: #3D4351 !important; /* Gray 02 */
+	--Color003: #303440 !important; /* Gray 03 */
+	--Color004: #2C303A !important; /* Gray 04 */
+	--Color005: #252830 !important; /* Gray 05 */
+	
+/* Text */	
+
+	--Color006: #FFFFFF !important; /* White */
+	--Color007: #C8CDDB !important; /* Active */
+	--Color008: #989FB1 !important; /* Text */
+	--Color009: #6C7180 !important; /* Muted */
+	--Color010: #27D8A1 !important; /* Accent */
+	
+/* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* ||| Old Settings |||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+    --background-accent: var(--Color001) !important;
+    --background-primary: var(--Color004) !important;
+    --background-secondary: var(--Color005) !important;
+    --background-secondary-alt: var(--Color002) !important;
+    --background-tertiary: var(--Color005) !important;
+    --background-floating: var(--Color005) !important;
+    --offline-color: var(--Color004) !important;
+  
+    --text-normal: var(--Color007) !important; 
+    --text-muted: var(--Color009) !important;
+  
+    --channels-default: var(--Color008) !important;
+    --interactive-normal: var(--Color008) !important;
+    --interactive-hover: var(--Color006) !important;
+    --interactive-active: var(--Color006) !important;
+    --interactive-muted: var(--Color009) !important;
+   
+    --background-modifier-hover: var(--Color004) !important;
+    --background-modifier-active: var(--Color004) !important;
+    --background-modifier-selected: var(--Color001) !important;
+    --background-modifier-accent: var(--Color002) !important;
+    --channeltextarea-background: var(--Color001) !important;
+    --deprecated-card-bg: var(--Color004) !important;
+    --deprecated-card-editable-bg: var(--Color004) !important;
+    --activity-card-background: var(--Color004) !important;
+   
+    --header-secondary: var(--Color008) !important;
+  
+    --channel-list: var(--Color003) !important;
+}
+
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* ||| User Settings |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+.side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ {
+    background-color: var(--Color001);
+	border-radius: 90px;
+}
+.side-8zPYf6 .item-PXvHYJ {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-bottom: 2.2px;
+    border-radius: 90px;
+}
+
+.sidebar-CFHs9e {
+	background: var(--Color001);
+	border-radius: 24px;
+    width: 220px;
+    margin-top: 60px;
+}	
+/* Menu */
+
+.sidebar-CFHs9e {
+	background: var(--Color005);
+	border-radius: 24px;
+    width: 220px;
+    margin-top: 60px;
+}
+
+
+/* Content */
+
+.contentColumnDefault-1VQkGM {
+	background: var(--Color005);
+    border-radius: 24px;
+    position: relative;
+	margin-top: 60px;
+	margin-left: 60px;
+	margin-right: 60px;
+	margin-bottom: 60px;
+}
+
+
+
+
+.formNotice-2_hHWR {
+    box-sizing: border-box;
+	border-radius: 24px;
+}
+
+.sidebarRegionScroller-3MXcoP {
+    background: var(--Color004);
+}
+
+.contentRegionScroller-26nc1e {
+    background-color: var(--Color004);
+}
+
+.divider-3573oO {
+    border-top: 2px solid var(--Color003);
+}
+
+/* ||||||||||||||||||||||||||| */
+/* ||| My Account Settings ||| */
+/* ||||||||||||||||||||||||||| */
+
+
+.theme-dark .userSettingsAccount-2eMFVR .viewBody-2Qz-jg {
+	filter: blur(4px);
+}
+
+.theme-dark .userSettingsAccount-2eMFVR .viewBody-2Qz-jg:hover {
+	filter: blur(0px);
+	transition: filter .3s;
+}
+
+.userSettingsAccount-2eMFVR .userInfoEditing-1CEzdT, .userSettingsAccount-2eMFVR .userInfoViewing-16kqK3 {
+    padding: 20px;
+    border-radius: 24px;
+}
+
+.userSettingsAccount-2eMFVR .userInfoViewingButton-2-jbH9 {
+    border-radius: 24px;
+}
+
+.sizeSmall-2cSMqn {
+    border-radius: 24px;
+}
+
+.userSettingsSecurity-3IYeMF .isEnabled-24g9qA {
+    color: var(--Color010);
+}
+
+.lookOutlined-3sRXeN.colorRed-1TFJan {
+    color: var(--Color001);
+    border-color: var(--Color001);
+}
+
+/* No Phone Nummber */
+
+.userSettingsSecurity-3IYeMF .flexChild-faoVW3 div:nth-child(3) .children-rWhLdy .colorStandard-2KCXvj:nth-child(2) {
+  display: none;
+}
+
+.userSettingsSecurity-3IYeMF .flexChild-faoVW3 div:nth-child(3) .children-rWhLdy .flex-1xMQg5 button {
+  margin-top: 10px;
+}
+
+/* 2Factor Background */
+
+.theme-dark .root-1gCeng {
+  	background: var(--Color004);
+
+}
+
+.root-1gCeng {
+    border-radius: 24px;
+}
+
+.theme-dark .footer-2gL1pp {
+  	background: var(--Color005);
+}
+
+.footer-2gL1pp {
+    border-radius: 0 0 24px 24px;
+}
+
+/* 2Factor Button */
+
+.grow-q77ONN, .sizeIcon-1-kvKI {
+    border-radius: 24px;
+}
+
+/* Input */
+
+.input-cIJ7To {
+    border-radius: 24px;
+    background-color: var(--Color005);
+    border: none;
+}
+
+/* |||||||||||||||||||||||| */
+/* ||| Privacy & Safety ||| */
+/* |||||||||||||||||||||||| */
+
+.card-3Qj_Yx {
+	background: var(--Color001);
+    border-radius: 24px;	
+    position: relative;
+    border: none;;
+}
+
+
+
+/* ||||||||||||||||||||||| */
+/* ||| Authorized Apps ||| */
+/* ||||||||||||||||||||||| */
+
+/* ||||||||||||||||||| */
+/* ||| Connections ||| */
+/* ||||||||||||||||||| */
+
+.accountBtn-2Nozo3 .accountBtnInner-sj5jLs {
+    background-color: var(--Color003);
+	border-radius: 90px;
+}
+
+.theme-dark .elevationLow-2lY09M {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+	border-radius: 24px;
+}
+
+.connectionHeader-2MDqhu {
+    background: transparent;
+}
+
+.connectionDelete-2Odoln {
+    border: 1px solid #ffffff8d;
+    border-radius: 90px;
+}
+
+/* ||||||||||||||| */
+/* ||| Billing ||| */
+/* ||||||||||||||| */
+
+.subText-V8PTt8 {
+	filter: blur(2px);
+}
+
+.subText-V8PTt8:hover {
+	filter: blur(0px);
+	transition: filter .3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Indicator */
+
+.theme-dark .defaultIndicator-G3c16x {
+    background: var(--Color002);
+    color: var(--Color007);
+	border-radius: 90px;
+}
+
+.theme-dark .premiumIndicator-1XvbfM {
+    background: var(--Color001);
+    color: #fff;
+	border-radius: 90px;
+}
+
+
+
+
+
+
+
+
+.paymentPane-3bwJ6A {
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+.theme-dark .paymentPane-3bwJ6A {
+    background-color: var(--Color005);
+    color: var(--Color008);
+}
+
+.theme-dark .paginator-166-09 {
+    background-color: var(--Color005);
+}
+
+.theme-dark .payment-xT17Mq {
+    background-color: var(--Color003);
+    color: var(--Color008);
+}
+
+.theme-dark .bottomDivider-1K9Gao {
+    border-bottom-color: var(--Color003);
+}
+
+.theme-dark .expandedInfo-3kfShd {
+    background: var(--Color004);
+	border-radius: 24px;
+}
+
+.theme-dark .codeRedemptionRedirect-1wVR4b {
+    color: #fff;
+    background: var(--Color005);
+    border: none;
+}
+
+
+
+
+
+/* ||||||||||||||||||||| */
+/* ||| Subscriptions ||| */
+/* ||||||||||||||||||||| */
+
+
+
+
+/* |||||||||||||||||||||| */
+/* ||| Gift Inventory ||| */
+/* |||||||||||||||||||||| */
+
+.header-1RC2Wb {
+    background: var(--Color005);
+	border-radius: 24px;
+}
+
+/* |||||||||||||||||||| */
+/* ||| Server Boost ||| */
+/* |||||||||||||||||||| */
+
+.guildHeader-3nh5RK {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: var(--Color005);
+    position: relative;
+}
+
+
+
+
+/* ||||||||||||||||| */
+/* ||| HypeSquad ||| */
+/* ||||||||||||||||| */
+
+/* ||||||||||||||||||||| */
+/* ||| Voice & Video ||| */
+/* ||||||||||||||||||||| */
+
+/* ||||||||||||||| */
+/* ||| Overlay ||| */
+/* ||||||||||||||| */
+
+/* ||||||||||||||||||||| */
+/* ||| Notifications ||| */
+/* ||||||||||||||||||||| */
+
+/* |||||||||||||||| */
+/* ||| Keybinds ||| */
+/* |||||||||||||||| */
+
+
+
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* ||| Serverlist ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+.guilds-1SWlCJ .scroller-2TZvBN {
+    padding-top: 80px;
+}
+
+.wrapper-1Rf91z {
+    background-color: transparent;
+}
+
+.scroller-2TZvBN {
+    background-color: var(--Color004);
+	border-radius: 0 24px 24px 0;
+	margin-bottom: 25px;
+	margin-top: 12px;
+}
+
+.layer-3QrUeG.baseLayer-35bLyl {
+    background: var(--Color003);
+}
+
+/* |||||||||||||||||||||||||||||| */
+/* ||| Round Server Selection ||| */
+/* |||||||||||||||||||||||||||||| */
+
+.childWrapper-anI2G9 {
+    background: var(--Color003);
+    color: var(--Color008);
+}
+
+.circleIconButton-jET_ig {
+    color: var(--Color008);
+    background-color: var(--Color003);
+}
+
+
+/* Home Button */
+
+.tutorialContainer-1v44GL {
+    background: var(--Color005);
+	border-radius: 0 24px 24px 0;
+    position: fixed;
+    z-index: 3;
+    top: 40px;
+	padding-bottom: 4px;
+	padding-top: 12px;
+}
+
+/* Create Server */
+
+.tutorialContainer-SGrQ1h {
+    background: var(--Color005);
+	border-radius: 0 24px 24px 0;
+    position: fixed;
+    z-index: 3;
+    bottom: 25px;
+	padding-bottom: 4px;
+	padding-top: 12px;
+
+}
+
+/* Explore */
+
+
+/* |||||||||||||||||||||||||||||||| */
+/* ||| Folder color when Closed ||| */
+/* |||||||||||||||||||||||||||||||| */
+
+
+.expandedFolderBackground-2sPsd- {
+    background: var(--Color004);
+}
+
+
+
+
+
+
+.closedFolderIconWrapper-15K9MK {
+  background-color: var(--Color004);
+}
+
+.expandedFolderBackground-2sPsd- {
+    background: transparent;
+    position: absolute;
+    top: 0;
+    left: 12px;
+    bottom: 8px;
+    width: 48px;
+    border-radius: 24px;
+
+}
+
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* ||| Topbar ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+/* No Divider */
+
+.content-yTz4x3:before, .divider-3FBTu8{
+    display: none;
+}
+
+:root{
+    --elevation-low: none;
+}
+
+.channelNotice-3DDmsB{
+    box-shadow: none;
+}
+
+.attachWrapper-2TRKBi, .panel-24C3ux, .peopleListItem-2nzedh, .rowWrapper-2fB6P0+.rowWrapper-2fB6P0 .row-ZLfFhY, .header-39GIC8, .headerCell-3L6rFG{
+    border: none;
+}
+
+/* |||||||||||||||||||| */
+/* ||| Channel Info ||| */
+/* |||||||||||||||||||| */
+
+.children-19S4PO {
+	background: var(--Color004);
+	border-radius: 90px;
+	Padding: 6px;
+	margin-right: 20px;
+}
+
+.topic-TCb_qw {
+	font-family: var(--font);
+}
+
+/* ||||||||||||| */
+/* ||| Icons ||| */
+/* ||||||||||||| */
+
+/* toolbar */
+
+.toolbar-1t6TWx {
+	background: var(--Color004);
+	border-radius: 90px;
+	Padding: 6px;
+}
+
+.container-1r6BKw {
+    padding-right: 12px;
+    padding-left: 0px;
+}
+
+/* Update Icon */
+
+.updateIconForeground-3tnNZn {fill: var(--Color010)}
+.updateIconForeground-3tnNZn:hover {fill: var(--Color010)}
+.updateIconForeground-3tnNZn:active {fill: var(--Color010)}
+
+/* Searchbar */
+
+.searchBar-3dMhjb {
+    background: transparent;
+}
+
+/* Follow Button */
+
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
+    background: var(--Color001);
+}
+
+.container-1r6BKw.themed-ANHk51 {
+    background: var(--Color003);
+	height: 60px;
+}
+
+.header-2o-2hj {
+    position: relative;
+    font-weight: 500;
+    padding: 0 16px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    z-index: 3;
+    -webkit-transition: background-color .1s linear;
+    transition: background-color .1s linear;
+    color: var(--header-primary);
+    -webkit-box-shadow: var(--elevation-low);
+    box-shadow: var(--elevation-low);
+}
+
+/* ||||||||||||||||||||||| */
+/* ||| Guild Separator ||| */
+/* ||||||||||||||||||||||| */
+
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ .guildSeparator-3s64Iy {
+    display: none;
+}
+
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* ||| Home ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+/* ||||||||||||||||||||||||| */
+/* ||| Remove Nitro Menu ||| */
+/* ||||||||||||||||||||||||| */
+
+#private-channels [href="/store"] {
+    display: none;
+}
+
+/* ||||||||||||||||||||||| */
+/* ||| Round Searchbar ||| */
+/* ||||||||||||||||||||||| */
+
+.privateChannels-1nO12o {
+    background-color: var(--channel-list);
+}
+
+.searchBar-6Kv8R2 .searchBarComponent-32dTOx {
+    border-radius: 24px;
+    background-color: var(--Color005);
+    text-align: center;
+}
+/* |||||||||||||||||| */
+/* ||| Friendlist ||| */
+/* |||||||||||||||||| */
+
+.scroller-1JbKMe {
+	
+    background: var(--Color003);
+}
+
+.layout-2DM8Md {
+    border-radius: 24px;
+    height: 50px;
+}
+
+/* ||||||||||||||||||||| */
+/* ||| Friend Status ||| */
+/* ||||||||||||||||||||| */
+
+.peopleColumn-29fq28 {
+	border-radius: 24px 24px 0 0;
+	background: var(--Color004);
+}
+
+.tabBody-3YRQ8W {
+
+    background: var(--Color003);
+
+}
+
+.actionButton-uPB8Fs {
+    background: var(--Color002);
+}
+
+.selected-aXhQR6 .layout-2DM8Md {
+    background: var(--Color004);
+}
+
+
+.avatar-3W3CeO {
+    background: var(--Color003);
+}
+
+.wrapper-3t9DeA {
+    background: var(--Color002);
+}
+
+
+
+/* |||||||||||||||||| */
+/* ||| Active Now ||| */
+/* |||||||||||||||||| */
+
+/* No Header */
+
+.header-13Cw0- {
+	display: none;
+}
+
+
+/* Background */
+
+.nowPlayingScroller-2XrVUt {
+  padding: 0px 20px 0px 20px;
+}
+
+.wrapper-3D2qGf {
+    background-color: var(--Color005);
+  	border-radius: 24px;
+}
+
+.nowPlayingColumn-2sl4cE {
+    background: var(--Color003);
+
+}
+
+.emptyCard-1RJw8n {
+    background: var(--Color004);
+
+}
+
+/* Items */
+
+.section-2gLsgF {
+	background: var(--Color003);
+  	border-radius: 24px;
+    position: relative;
+    padding: 12px;
+}
+
+.theme-dark .inset-3sAvek {
+    background-color: transparent;
+}
+
+/* Activity Avatar */
+
+.activitySectionAssets-32WyHu .largeImage-DLXk-f {
+	border-radius: 90px;
+    width: 32px;
+    height: 32px;
+}
+
+/* Divider */
+
+.theme-dark .separator-XqIyoz {
+    background-color: transparent;
+	padding-top: 8px;
+}
+
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* ||| Profile Panel |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+/* |||||||||||| */
+/* ||| Game ||| */
+/* |||||||||||| */
+
+.panel-24C3ux {
+	position: absolute;
+	background: var(--Color005);
+	border-radius: 24px;
+	padding-top: 14px;
+	padding-bottom: 150px;
+	z-index: 90;
+	width: 220px;
+	bottom: 16px;
+	left: 6px;
+}
+
+/* ||||||||||||| */
+/* ||| Voice ||| */
+/* ||||||||||||| */
+
+.container-1giJp5 {
+	position: absolute;
+	background: var(--Color004);
+	border-radius: 24px;
+	padding-top: 14px;
+	padding-bottom: 50px;
+	z-index: 90;
+	width: 220px;
+	bottom: 20px;
+	left: 6px;
+}
+
+.button-1YfofB.buttonColor-7qQbGO {
+    background-color: var(--Color003);
+    color: var(--Color007);
+}
+
+/* ||||||||||||||| */
+/* ||| Profile ||| */
+/* ||||||||||||||| */
+
+/* Background */
+
+.container-3baos1, .panels-j1Uci_ {
+	position: absolute;
+	background: var(--Color005);
+	border-radius: 90px;
+	z-index: 90;
+	width: 220px;
+	bottom: 12px;
+	left: 6px;
+}
+
+/* Hover */
+
+.panels-j1Uci_ > .container-3baos1:hover button.button-14-BFJ{
+  display: block;
+}
+
+.panels-j1Uci_ > .container-3baos1 button[aria-checked="false"], .panels-j1Uci_ > .container-3baos1 button:not([role="switch"]) {
+  display: none;
+  background: var(--Color005);
+}
+
+/* ||||||||||||||| */
+/* ||| Spotify ||| */
+/* ||||||||||||||| */
+
+.powercord-spotify .spotify-seek-bar, .spotify-seek, .spotify-seek-bar-progress, .spotify-seek-bar-progress {
+	display: none;
+}
+
+.powercord-spotify {
+	display: none;
+}
+
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* ||| Channellist |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+/* |||||||||||||| */
+/* ||| Header ||| */
+/* |||||||||||||| */
+
+#app-mount .sidebar-2K8pFh {
+    background: var(--Color003);
+}
+
+.clickable-2ap7je {
+    background: var(--Color004);
+}
+
+.clickable-2ap7je {
+	border-radius: 24px 24px 0 0;
+}
+
+.clickable-2ap7je .header-2o-2hj {
+    background: transparent;
+	height: 36px;
+}
+
+.animatedContainer-1pJv5C, .bannerImage-1jOskm {
+	z-index: 2;
+	border-radius: 24px;
+    position: absolute;
+    height: 120px;
+}
+
+/* ||||||||||||||||||| */
+/* ||| Channellist ||| */
+/* ||||||||||||||||||| */
+
+
+/* Background */
+
+.sidebar-2K8pFh {
+    width: 260px;
+}
+
+.container-PNkimc {
+    background: var(--Color003);
+	margin-top: 12px;
+	margin-right: 12px;
+    margin-left: 12px;
+	margin-bottom: 28px;
+}
+
+.scroller-2wx7Hm {
+    background: var(--Color004);
+	padding-bottom: 240px;
+	border-radius: 0 0 24px 24px;
+}
+
+/* Content */
+
+
+.containerDefault-1ZnADq, .clickable-18m--O {
+	padding-right: 8px;
+}
+
+/* Selector */
+
+.modeSelected-1zApJ_ .content-3at_AU, .modeSelected-1zApJ_:hover .content-3at_AU {
+    background-color: var(--Color003);
+	border-radius: 90px;
+}
+
+
+
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* ||| Memberlist ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+.members-1998pB, .members-1998pB>div {
+    background-color: var(--Color004);
+	border-radius: 24px;
+
+	margin-left: 12px;
+	margin-bottom: 25px;
+}
+
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* ||| Chat ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+.content-yTz4x3 {
+    padding-right: 12px;
+}
+
+
+/* ||||||||||||||| */
+/* ||| Message ||| */
+/* ||||||||||||||| */
+
+/* Background */
+
+.chatContent-a9vAAp {
+    background-color: var(--Color004);
+	border-radius: 24px;
+	margin-bottom: 28px;
+}
+
+.content-yTz4x3 {
+    background-color: var(--Color003);
+}
+
+/* Avatar */
+
+.avatar-1BDn8e {
+    width: 60px;
+    height: 60px;
+  	background: var(--Color003);
+	margin-left: 10px;
+}
+
+/* Text Align */
+
+.cozy-3raOZG .messageContent-2qWWxC {
+	font-family: var(--font);
+    text-align: justify;    
+	margin-left: -72px;
+    padding-left: 72px;
+	margin-right: 40px;
+
+}
+
+/* Text Spacing */
+
+.compact-T3H92H.wrapper-2a6GCs, .cozy-3raOZG.wrapper-2a6GCs {
+	padding-left: 110px;
+    padding-top: .600rem;
+    padding-bottom: .600rem;
+}
+
+
+/* No Scrollbar*/
+
+.scrollerBase-289Jih::-webkit-scrollbar{
+    display: none;
+}
+
+/* Hide edit */
+
+.edited-3sfAzf {
+    display: none;
+}
+
+/* |||||||||||||||||||| */
+/* ||| Round Image  ||| */
+/* |||||||||||||||||||| */
+
+.imageWrapper-2p5ogY img {
+    border-radius: 16px;
+}
+
+
+/* ||||||||||||||||||| */
+/* ||| Round video ||| */
+/* ||||||||||||||||||| */
+
+.wrapper-2TxpI8 {
+    border-radius: 16px;
+}
+
+/* ||||||||||||| */
+/* ||| Embed ||| */
+/* ||||||||||||| */
+
+.embedFull-2tM8-- {
+    background: var(--Color005);
+    border-top-right-radius: 24px;
+	border-bottom-right-radius: 24px;
+    border-left: 5px solid var(--Color001);
+}
+
+embedAuthorName-3mnTWj, .embedAuthorNameLink-1gVryT, .embedDescription-1Cuq9a, .embedFieldName-NFrena, .embedFieldValue-nELq2s, .embedFooterText-28V_Wb, .embedLink-1G1K1D, .embedProvider-3k5pfl, .embedTitle-3OXDkz, .embedTitleLink-1Zla9e {
+    text-align: justify;
+}
+
+/* |||||||||||||||||||||||||| */
+/* ||| Quotes like embeds ||| */
+/* |||||||||||||||||||||||||| */
+
+.theme-dark .blockquoteContainer-U5TVEi blockquote {
+    background-color: var(--Color003);
+    border-color: var(--Color003);
+ 
+}
+
+.blockquoteContainer-U5TVEi blockquote {
+    border: 2px solid;
+    border-top-right-radius: 24px;
+ 	border-bottom-right-radius: 24px;
+    padding: 8px 12px 4px;
+   	margin-bottom: 20px;
+  
+}
+
+.blockquoteContainer-U5TVEi .blockquoteDivider-2hH8H6 {
+    border-radius: 4px 0px 0px 4px;
+  	background-color: var( --Color001);
+    margin-bottom: 20px;
+}
+
+/* |||||||||||||||| */
+/* ||| Download ||| */
+/* |||||||||||||||| */
+
+.attachment-33OFj0 {
+    border: none;
+    background-color: var(--Color005);
+	border-radius: 24px;
+	
+}
+
+/* ||||||||||||||| */
+/* ||| Mention ||| */
+/* ||||||||||||||| */
+
+#app-mount .chat-3bRxxu .messagesWrapper-3lZDfY .cozyMessage-3V1Y8y:not(.groupStart-23k01U) {
+  padding-bottom: 20px;
+  margin-top: -22px;
+  border-bottom-right-radius: 24px;
+  border-bottom-left-radius: 24px;
+}
+
+/* ||||||||||||||||||||||| */
+/* ||| Message Divider ||| */
+/* ||||||||||||||||||||||| */
+
+:root .divider-JfaTT5{
+    margin-right: 138px;
+    margin-left: 138px;
+    border: none;
+}
+
+/* Time Divider */
+
+.content-1o0f9g {
+    background: var(--Color003);
+    border-radius: 90px;
+    width: 100%;
+    padding: 8px;
+    text-align: center;
+	padding-right: 50px;
+}
+
+/* New Message Divider */
+
+.unreadPill-2HyYtt{
+	background: var(--Color001);
+    border-radius: 90px;
+    padding: 14px;
+	margin-top: -7px;
+	margin-right: 1110px;
+    width: 4%;
+}
+
+.unreadPillCap-3_K2q2{
+    display: none;
+}
+
+.unreadPillCapStroke-7rkHbg {
+    color: var(--Color001);
+    fill: var(--Color001);
+}
+
+.isUnread-3Ef-o9 .content-1o0f9g {
+    color: var(--Color006);
+}
+
+
+:root .isUnread-3Ef-o9:not(.hasContent-1cNJDh){
+    margin: 10px 47px;
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+}
+
+/* ||||||||||||||||||||||| */
+/* ||| Round Code Menu ||| */
+/* ||||||||||||||||||||||| */
+
+.markup-2BOw-j code {
+    background: var(--Color004);
+    border: transparent;
+    border-radius: 24px;
+}
+
+.hljs .powercord-lines:after {
+    padding-right: 8px;
+    left: 3px;
+    border-right: 1px solid var(--Color005);
+}
+
+/* |||||||||||||||| */
+/* ||| Reaction ||| */
+/* |||||||||||||||| */
+
+.reaction-1hd86g {
+    background: var(--Color003);
+    border-radius: 1rem;
+}
+
+/* ||||||||||||||||||||||| */
+/* ||| Round Code Menu ||| */
+/* ||||||||||||||||||||||| */
+
+.markup-2BOw-j code {
+    background: var(--Color005);
+    border: transparent;
+    border-radius: 8px;
+}
+
+.hljs .powercord-lines:after {
+    padding-right: 8px;
+    left: 3px;
+    border-right: 1px solid var(--Color005);
+}
+
+/* |||||||||||||||||||||| */
+/* ||| No Chat Header ||| */
+/* |||||||||||||||||||||| */
+
+.hasDivider-20M1le {
+	display: none;
+}
+
+.container-3zqIcM {
+	display: none;
+}
+
+/* |||||||||||||||||| */
+/* ||| Emoji Info ||| */
+/* |||||||||||||||||| */
+
+.emojiSection-3Fb9ix {
+    background: var(--Color005);
+
+}
+
+.container-ZRw2kD {
+    width: auto;
+    border-radius: 24px;
+	box-shadow: 0px 8px 12px -2px var(--Color005);
+}
+
+.guildSection-1EoFKd {
+    background: var(--Color004);
+    padding: 16px;	
+}
+
+/* |||||||||||||||||| */
+/* ||| New Member ||| */
+/* |||||||||||||||||| */
+
+/* Text */
+
+.content-2M3n_H {
+	padding-left: 34px;
+}
+
+/* Icon */
+
+.iconContainer-3GkGRf {
+    position: absolute;
+    left: 4px;
+    padding-top: .16rem;
+}
+
+/* Background */
+
+.container-3-pyIM {
+	background: var(--Color003);
+	border-radius: 90px;
+	padding: 8px
+}
+
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* ||| Chatbar |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+/* |||||||||||||||||| */
+/* ||| Background ||| */
+/* |||||||||||||||||| */
+
+.form-2fGMdU {
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
+
+.scrollableContainer-2NUZem {
+	position: relative;
+    background: var(--Color005);
+    max-height: 37vh;
+  	border-radius: 24px;
+	z-index: 3;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.characterCount-1cRDo2 {
+	z-index: 3;
+}
+
+.channelTextArea-rNsIhG {
+    margin-bottom: -3px;
+	border-radius: 24px;
+}
+
+.theme-dark .form-2fGMdU:before {
+	background: transparent;
+}
+
+/* |||||||||||||||||| */
+/* ||| Text Align ||| */
+/* |||||||||||||||||| */
+
+.slateTextArea-1Mkdgw {
+    text-align: justify;
+	margin-left: 28px;
+}
+
+.placeholder-37qJjk {
+    left: 28px;
+}
+
+/* ||||||||||||||||||||||||||||||| */
+/* ||| Remove Gif & Nitro Icon ||| */
+/* ||||||||||||||||||||||||||||||| */
+
+.buttonWrapper-1ZmCpA {display: none;}
+
+
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* ||| Call ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+
+/* ||||||||||||||||||||||||||||| */
+/* ||| No Picture in Picture ||| */
+/* ||||||||||||||||||||||||||||| */
+
+.pictureInPictureWindow-1B5qSe{
+    display:none;
+}
+
+/* ||||||||||||||||| */
+/* ||| Call Dock ||| */
+/* ||||||||||||||||| */
+
+.wrapper-3EGhDO {
+    background-color: #2C303A;
+    border-radius: 25px;
+    padding: 0px;
+}
+
+.colorable-1bkp8v.white-3GPOIp, .colorable-1bkp8v.white-3GPOIp .centerIcon-2G6o-T {
+    color: currentColor;
+}
+
+.colorable-1bkp8v.primary-3NQg8g,
+.colorable-1bkp8v.primary-3NQg8g.active-1QRrIS, .colorable-1bkp8v.primary-3NQg8g:hover, 
+.colorable-1bkp8v.white-3GPOIp,
+.centerButton-3CaNcJ,
+.colorable-1bkp8v.white-3GPOIp.active-1QRrIS, .colorable-1bkp8v.white-3GPOIp:hover,
+.colorable-1bkp8v.red-33-Lnk {
+    background: none !important;
+}
+
+div[class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1GKY directionRow-3v3tfG justifyCenter-3D2jYp alignCenter-1dQNNs noWrap-3jynv6"][style="flex: 1 1 auto;"]{
+  background-color: #2C303A;
+  border-radius: 30px;
+}
+
+.wrapper-2qzCYF.fullScreen-1tMzXY, .wrapper-2qzCYF.noChat-18KtBD {
+    height: 100%;
+    background: #000;
+}
+
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* ||| Menus |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+/* |||||||||||||||||||| */
+/* ||| Verify Phone ||| */
+/* |||||||||||||||||||| */
+
+.phoneField-38N1bJ .countryButton-3xq3Ts {
+    border-radius: 24px;
+}
+
+/* |||||||||||||||||||| */
+/* ||| Profile Card ||| */
+/* |||||||||||||||||||| */
+
+.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
+    background: var(--Color004);
+    color: #fffc;
+}
+
+.userPopout-3XzG_A {
+	box-shadow: 0px 8px 12px -2px var(--Color005);
+    width: 240px;
+    border-radius: 24px;
+    max-height: calc(100vh - 20px);	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Roles */
+
+.role-2irmRk{
+  
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    border: none;
+    padding: 5px;
+}
+
+.roleCircle-3xAZ1j::before{
+    content: "";
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    background: inherit;
+    opacity: .2;
+    z-index: -1;
+    pointer-events: none;
+}
+
+/* ||||||||||||||||||| */
+/* ||| Contex Menu ||| */
+/* ||||||||||||||||||| */
+
+.wrapper-2aW0bm {
+    background-color: var(--Color002);
+    border-radius: 24px;
+	box-shadow: 0px 8px 8px -2px var(--Color005);
+}
+
+/* ||||||||||||| */
+/* ||| Inbox ||| */
+/* ||||||||||||| */
+
+.theme-dark .header-2-Imhb .tabBar-1kuXvJ .tab-ck0077.active-1MbGPa {
+    background-color: var(--Color001);
+	border-radius: 90px;
+}
+
+
+
+.recentMentionsPopout-3rCiI6 {
+    width: 35vw;
+    max-width: 900px;
+    min-width: 900px;
+    max-height: 80vh;
+}
+
+.container-enaOkj {
+    border-radius: 24px;
+}
+
+.container-3u944p {
+	background: var(--Color004);
+}
+
+.icon-1Itzco {
+    background-color: var(--Color003);
+    border-radius: 80px;
+    color: var(--text-muted);
+    padding: 22px;
+}
+
+/* Unreads */
+
+.icon-1Itzco {
+    background-color: var(--Color003);
+    border-radius: 80px;
+    color: var(--text-muted);
+    padding: 22px;
+
+}
+
+.stars-1YAEQv {
+	display: none;
+}
+
+.size12-3cLvbJ {
+    font-size: 13px;
+    line-height: 16px;
+}
+
+/* Mention */
+
+.guildIcon-3Co6k- {
+    background-color: var(--Color002);
+	border-radius: 90px;
+}
+
+.secondary-dIudih {
+    background-color: var(--Color002);
+    color: var(--Color008);
+}
+
+.container-3iAQ-0 {
+    background-color: var(--Color005);
+}
+
+
+.channelHeader-3Gd2xq {
+    background-color: var(--Color005);
+}
+
+.messageContainer-gbhlwo {
+    background-color: var(--Color004);
+    border-radius: 24px;
+	padding: 0px;
+
+}
+
+.container-3iAQ-0 {
+    margin-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;	
+}
+
+.tertiary-aMXF0g {
+    background-color: var(--Color002);
+    color: var(--Color008);
+}
+
+/* |||||||||||||||||||||||| */
+/* ||| Status Selection ||| */
+/* |||||||||||||||||||||||| */
+
+.menu-3sdvDG {
+    border-radius: 20px;
+}
+
+.item-1tOPte {
+    border-radius: 24px;
+}
+
+.description-2L932D {
+    margin-bottom: 0px;
+    font-size: 0px;
+    line-height: 0px;
+
+}
+
+.scroller-3BxosC {
+    padding: 8px 8px;
+}
+
+/* |||||||||||||| */
+/* ||| Pinbox ||| */
+/* |||||||||||||| */
+
+.messagesPopoutWrap-1MQ1bW {
+
+    border-radius: 24px;
+
+}
+
+.messageGroupWrapper-o-Zw7G {
+
+    border-radius: 24px;
+
+}
+
+/* ||||||||||||||| */
+/* ||| Profile ||| */
+/* ||||||||||||||| */
+
+.header-QKLPzZ {
+    background-color: var(--Color005);
+}
+
+.activity-1ythUs {
+    background-color: var(--Color00);
+}
+
+/*Background*/
+
+.body-3ND3kc {
+    background-color: var(--Color004);
+}
+
+.root-SR8cQa {
+    background-color: var(--Color004);
+    border-radius: 24px;
+    overflow: hidden;
+    position: relative;
+	width: 900px;
+	height: 546px;
+}
+
+/*Note*/
+
+.note-QfFU8y textarea {
+    border-radius: 90px;
+    font-size: 15px;
+    line-height: 16px;
+    padding-left: 20px;
+	padding-top: 14px;
+}
+
+/*Icon Tabs*/
+
+.connectedAccount-36nQx7 {
+    margin-top: 20px;
+    padding: 8px 14px 8px 8px;
+    width: 240px;
+    background: var(--Color002);
+	border-radius: 90px;
+	border: none;
+}
+
+.infoScroller-3EYYns {
+    padding: 0 20px;
+    height: 540px;
+}
+
+/* |||||||||||||||||||| */
+/* ||| Large Pinned ||| */
+/* |||||||||||||||||||| */
+
+.messagesPopoutWrap-1MQ1bW{
+  width: 900px;
+}
+
+/* ||||||||||||||||||| */
+/* ||| Share Media ||| */
+/* ||||||||||||||||||| */
+
+.attachPopout-36hjtN {
+    border-radius: 24px;
+    background-color: var(--Color005);
+    box-shadow: none;
+}
+
+
+.attachPopoutRow-3iqqu1 {
+    border-radius: 90px;
+    color: var(--Color008);
+}
+
+/* |||||||||||||||||||||| */
+/* ||| Search Options ||| */
+/* |||||||||||||||||||||| */
+
+
+
+
+/* |||||||||||||||||||||| */
+/* ||| Search History ||| */
+/* |||||||||||||||||||||| */
+
+.searchResultsWrap-3-pOjs {
+    background-color: var(--Color003);
+    width: 800px;
+}
+
+.searchResult-9tQ1uo:before {
+    z-index: 1;
+    top: 0;
+    background-image: linear-gradient(0deg,#0000,var(--Color003));
+}
+
+.searchResult-9tQ1uo:after {
+    bottom: 0;
+    background-image: linear-gradient(180deg,#0000,var(--Color003));
+}
+
+.channelName-1JRO3C {
+    background: var(--Color003);
+}
+
+.searchResultMessage-1fxgXh.hit-1fVM9e {
+    background: var(--Color004);
+    position: relative;
+    z-index: 1;
+    max-height: none;
+	box-shadow: 0px 8px 12px -2px var(--Color005);
+    border: none;
+    border-radius: 24px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.searchResult-9tQ1uo.expanded-w_LCGl {
+    background: var(--Color005);
+    border-radius: 24px;
+	border: none;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.expanded-w_LCGl .searchResultMessage-1fxgXh.hit-1fVM9e {
+    background: var(--Color004);
+}
+
+/* |||||||||||||||||||| */
+/* ||| Color Picker ||| */
+/* |||||||||||||||||||| */
+
+.theme-dark .colorPickerCustom-2CWBn2 {
+    background: var(--Color004);
+	border: none;
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.backdrop-1wrmKB {
+	opacity: 0.1;
+    background: #fff;
+    transform: translateZ(0px);
+
+}
+
+/* |||||||||||||||||||| */
+/* ||| Emoji Picker ||| */
+/* |||||||||||||||||||| */
+
+
+
+/* Background */
+
+.inspector-S2gM3e {
+    background-color: var(--Color005);
+}
+
+.contentWrapper-SvZHNd {
+    background: var(--Color005);
+    border-radius: 24px;
+	padding-bottom: 40px;
+    height: 111%;
+	box-shadow: none;
+}
+
+.positionContainer-DEuh7X {
+    height: 444px;
+    z-index: 2;
+}
+
+.theme-dark .wrapper-1-Fsb8 {
+    background: var(--Color005);
+	border-radius: 24px;
+}
+
+/* Search */
+
+.container-2XeR5Z {
+    background-color: var(--Color004);
+	border-radius: 90px;
+}
+
+.input-3Xdcic {
+    background-color: var(--Color004);
+	border-radius: 90px;
+}
+
+/* Header */
+
+.inspector-sdLnLS {
+    background: var(--Color003);
+	border-radius: 24px;
+}
+
+/* Button */
+
+.navButtonActive-1MkytQ {
+    background-color: var(--Color001);
+    color: #fff;
+}
+
+/* Icon */
+
+.categoryItemDefaultCategorySelected-_HCKoz, .categoryItemDefaultCategorySelected-_HCKoz:hover {
+    background-color: var(--Color003);
+	border-radius: 90px;
+	
+}
+
+/* |||||||||||||||||||| */
+/* ||| Autocomplete ||| */
+/* |||||||||||||||||||| */
+
+/* Background */
+
+:root .autocomplete-Z9HwQh{
+    background: var(--Color005);
+    bottom: calc(100% - 8px);
+    border-radius: 24px;
+    box-shadow: none;
+	padding-bottom: 48px;
+	margin-bottom: -42px;
+	z-index: 1;
+}
+
+/* Header */
+
+:root .contentTitle-2tG_sM{
+    color: var(--Color006);
+}
+
+/* Selector */
+
+:root .selectorSelected-1_M1WV{
+    background: var(--Color003);
+	border-radius: 90px;
+}
+
+/* |||||||||||||| */
+/* ||| Stream ||| */
+/* |||||||||||||| */
+
+.selectorButtonSelected-t5V9On {
+    background: var(--Color001);
+}
+
+.card-2Mz_4z {
+    background: var(--Color003);
+	border: none;
+	border-radius: 90px;
+}
+
+
+/* |||||||||||||||||||||| */
+/* ||| Create Channel ||| */
+/* |||||||||||||||||||||| */
+
+.theme-dark .modal-yWgWj- {
+    background-color: var(--Color003);
+    box-shadow: none;
+	border-radius: 24px;
+}
+
+/* ||||||||||||||||||||||||||| */
+/* ||| Reaction Emoji Menu ||| */
+/* ||||||||||||||||||||||||||| */
+
+/* Background */
+
+.emojiPicker-3PwZFl {
+    background-color: var(--Color005);
+    border-radius: 24px;
+    box-shadow: none;
+	border: none;
+}
+
+/* Inspector */
+
+.inspector-sdLnLS {
+    background: var(--Color005);
+    border-radius: 24px;
+}
+
+/* Emoji */
+
+.unicodeShortcut-15J8Ck {
+    color: var(--Color008);
+    height: 56px;
+
+}
+
+.emojiItem-14v6tW.emojiItemSelected-1aLkfV {
+    background: var(--Color002);
+    border-radius: 90px;
+}
+
+.guildIcon-3h-1IH {
+    background: var(--Color002);
+	border-radius: 90px;
+}
+
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* ||| Server Menu |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+/* |||||||||||||||| */
+/* ||| Overview ||| */
+/* |||||||||||||||| */
+
+.flag-16iIBd {
+    position: relative;
+    border-radius: 90px;
+    margin-left: 2px;
+    width: 36px;
+    height: 24px;
+}
+
+.theme-dark .container-1nZlH6 {
+    background: var(--Color005);
+	border: none;
+	border-radius: 90px;
+}
+
+
+/* ||||||||||||| */
+/* ||| Roles ||| */
+/* ||||||||||||| */
+
+
+/* ||||||||||||| */
+/* ||| Emoji ||| */
+/* ||||||||||||| */
+
+
+
+/* |||||||||||||||||| */
+/* ||| Moderation ||| */
+/* |||||||||||||||||| */
+
+.checkbox-1ix_J3 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 90px;
+}
+
+
+
+
+/* ||||||||||||||||| */
+/* ||| Audit Log ||| */
+/* ||||||||||||||||| */
+
+.theme-dark .auditLog-3jNbM6 {
+	border: none;
+}
+
+.theme-dark .headerClickable-2IVFo9, .theme-dark .headerDefault-1wrJcN {
+    background: var(--Color005);
+    color: #b9bbbe;
+	border: none;
+	border-radius: 30px;
+}
+
+.theme-dark .headerExpanded-CUEwZ5 {
+    background: var(--Color005);
+	border-radius: 30px 30px 0 0;
+    color: #b9bbbe;
+}
+
+
+.theme-dark .changeDetails-bk98pu {
+    background: var(--Color003);
+	border-radius: 0 0 30px 30px;
+}
+
+.theme-dark .divider-1pnAR2 {
+    display: none;
+}
+
+.theme-dark .timestamp-1mruiI {
+    color: var(--Color009);
+}
+
+
+/* |||||||||||||||||||| */
+/* ||| Integrations ||| */
+/* |||||||||||||||||||| */
+
+/* |||||||||||||| */
+/* ||| Widget ||| */
+/* |||||||||||||| */
+
+.css-1a8reka-control {
+    background: var(--Color005);
+    -webkit-box-align: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    min-height: 40px;
+    position: relative;
+    box-sizing: border-box;
+    border-color: rgba(32, 34, 37, 0.5);
+    border-style: solid;
+    border: none;
+	border-radius: 90px;
+    transition: border 0.15s ease 0s;
+    outline: 0px !important;
+}
+
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* ||| Create a Server |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+/* Background */
+
+.theme-dark .root-1gCeng {
+    background: var(--Color005);
+}
+
+/* Header */
+
+.colorHeaderPrimary-26Jzh- {
+    color: var(--Color007);
+}
+
+/* Sub Header */
+
+.colorStandard-2KCXvj {
+    color: var(--Color007);
+}
+
+/* Text */
+
+.colorHeaderSecondary-3Sp3Ft {
+    color: var(--Color009);
+}
+
+/* Items */
+
+.itemContainer-1LSFks {
+    border-radius: 90px;
+    border: 1px solid var(--background-modifier-accent);
+    background: var(--Color004);
+    margin-bottom: 8px;
+}
+
+/* Button */
+
+.lookFilled-1Gx00P.colorGrey-2DXtkV {
+    color: var(--Color006);
+    background: var(--Color002);
+}
+
+
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* ||| Discover ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+/* Background */
+
+.theme-dark .pageWrapper-1PgVDX {
+    background-color: var(--Color003);
+}
+
+/* |||||||||||||||||||| */
+/* ||| Round Header ||| */
+/* |||||||||||||||||||| */
+
+.headerImage-3X1tyY {
+    border-radius: 24px;
+}
+
+/* ||||||||||||||||||| */
+/* ||| Server Card ||| */
+/* ||||||||||||||||||| */
+
+.theme-dark .card-3DjzTQ, .theme-dark .iconMask-3b8GzQ {
+    background-color: var(--Color004);
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* ||| Powercord |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+.powercord-entities-manage-tabs {
+    background-color: var(--Color005);
+	border-radius: 24px;
+}
+
+.lookFilled-1Gx00P.colorRed-1TFJan {
+    color: #fff;
+    background-color: var(--Color001);
+}
+
