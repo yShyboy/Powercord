@@ -1,0 +1,2432 @@
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*|||                                                                                               ||||||||*/
+/*||| This is the official CreArts theme created by CorellanStoma#1996                              ||||||||*/
+/*|||                                                                                               ||||||||*/
+/*||| CreArts Theme v1.1                                                                            ||||||||*/
+/*|||                                                                                               ||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css");
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Theme Settings |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+.theme-dark,
+:root {
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/* Blurple Recolor */
+    --accentcolor: 205,9,82;
+    --linkcolor: 205,9,82;
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/* Font */
+    --font: 'Oxygen';
+
+/* Accent */
+    --Color001: #CD0952 !important; /* Accent 01 */
+
+/* Gray */
+    --Color002: #3D4351 !important;
+	--Color003: #303440 !important;
+	--Color004: #2C303A !important;
+	--Color005: #252830 !important;
+	
+/* Text */	
+	--Color006: #FFFFFF !important;
+	--Color007: #C8CDDB !important;
+	--Color008: #989FB1 !important;
+	--Color009: #6C7180 !important;
+    --Color010: #27D8A1 !important;
+    
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+    --background-accent: var(--Color001) !important;
+    --background-primary: var(--Color004) !important;
+    --background-secondary: var(--Color005) !important;
+    --background-secondary-alt: var(--Color002) !important;
+    --background-tertiary: var(--Color005) !important;
+    --background-floating: var(--Color005) !important;
+    --offline-color: var(--Color004) !important;
+  
+    --text-normal: var(--Color007) !important; 
+    --text-muted: var(--Color009) !important;
+  
+    --channels-default: var(--Color008) !important;
+    --interactive-normal: var(--Color008) !important;
+    --interactive-hover: var(--Color006) !important;
+    --interactive-active: var(--Color006) !important;
+    --interactive-muted: var(--Color009) !important;
+   
+    --background-modifier-hover: var(--Color004) !important;
+    --background-modifier-active: var(--Color004) !important;
+    --background-modifier-selected: var(--Color001) !important;
+    --background-modifier-accent: var(--Color002) !important;
+    --channeltextarea-background: var(--Color001) !important;
+    --deprecated-card-bg: var(--Color004) !important;
+    --deprecated-card-editable-bg: var(--Color004) !important;
+    --activity-card-background: var(--Color004) !important;
+   
+    --header-secondary: var(--Color008) !important;
+  
+    --channel-list: var(--Color003) !important;
+}
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Settings |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/* Background */
+
+.sidebarRegionScroller-3MXcoP, .contentRegionScroller-26nc1e {
+    background: var(--Color003);
+}
+
+/* Sidebar */
+
+.sidebar-CFHs9e {
+    background: var(--Color004);
+    border-radius: 24px;    
+    padding: 30px 20px 20px 20px;
+    margin: 60px 0px 60px 0px;
+    width: 240px;
+}
+
+.header-2RyJ0Y {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: var(--Color008);
+}
+
+/* Content */
+
+.contentColumnDefault-1VQkGM {
+	background: var(--Color004);
+    border-radius: 24px;
+    padding-top: 30px;
+	margin-top: 60px;
+	margin-left: 60px;
+	margin-right: 60px;
+	margin-bottom: 60px;
+}
+
+/* Highlight */
+
+.side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ {
+    background: var(--Color001);
+	border-radius: 90px;
+}
+
+.side-8zPYf6 .item-PXvHYJ {
+	border-radius: 90px;
+}
+
+/* Card */
+
+.card-3Qj_Yx {
+	background: var(--Color003);
+    border-radius: 24px;	
+    position: relative;
+    border: none;;
+}
+
+/* Buttons */
+
+.lookOutlined-3sRXeN.colorRed-1TFJan {
+    background: var(--Color005);
+    color: var(--Color008);
+    border: none;
+}
+
+.lookOutlined-3sRXeN.colorBrand-3pXr91 {
+    background: var(--Color005);
+    color: var(--Color008);
+    border: none;
+}
+
+/* Dropdown*/
+
+.css-1a8reka-control {
+    background: var(--Color005);
+    border-radius: 90px;
+    border: none;
+}
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| User Settings | My Account |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/* Profile */
+
+.userSettingsAccount-2eMFVR .userInfoEditing-1CEzdT, .userSettingsAccount-2eMFVR .userInfoViewing-16kqK3 {
+    background: var(--Color003);
+    border-radius: 24px;
+    padding: 20px;
+}
+
+/* Blur Details */
+
+.theme-dark .userSettingsAccount-2eMFVR .viewBody-2Qz-jg {
+	filter: blur(4px);
+}
+
+.theme-dark .userSettingsAccount-2eMFVR .viewBody-2Qz-jg:hover {
+	filter: blur(0px);
+	transition: filter .3s;
+}
+
+/* Two-Factor | Background */
+
+.root-1gCeng {
+    border-radius: 24px;
+  }
+
+.header-1TKi98 {
+    background: var(--Color003);
+    border-radius: 24px 24px 0 0;
+}
+
+.content-1LAB8Z {
+    background-color: var(--Color003);
+
+    border-radius: 0px;
+}
+
+.theme-dark .footer-2gL1pp {
+    background: var(--Color005);
+    border-radius: 0 0 24px 24px;
+}
+
+/* Two-Factor | Input */
+
+.input-cIJ7To {
+    border-radius: 24px;
+    background-color: var(--Color005);
+    border: none;
+}
+
+.inputDefault-_djjkz {
+    padding: 20px;
+}
+
+/* Two-Factor Button */
+
+.grow-q77ONN, .sizeIcon-1-kvKI {
+  border-radius: 24px;
+}
+
+/* Two-Factor Text */
+
+.userSettingsSecurity-3IYeMF .isEnabled-24g9qA {
+    color: var(--Color010);
+}
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| User Settings | Privacy & Safety |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/* Round Checkbox */
+
+.box-mmYMsp {
+    border-radius: 90px;
+}
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| User Settings | Authorized Apps ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| User Settings | Connections ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/* Social Icons Background */
+
+.accountBtn-2Nozo3 .accountBtnInner-sj5jLs {
+    background-color: var(--Color003);
+	border-radius: 90px;
+}
+
+/* Social Card */
+
+.theme-dark .elevationLow-2lY09M {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+	border-radius: 24px;
+}
+
+.connectionHeader-2MDqhu {
+    background: transparent;
+}
+
+.connectionDelete-2Odoln {
+    border: 1px solid var(--Color006);
+    border-radius: 90px;
+}
+
+.connectionDelete-2Odoln:hover {
+    border: 1px solid var(--Color007);
+}
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| User Settings | Billing ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/* Blur Mail */
+
+.subText-V8PTt8 {
+	filter: blur(2px);
+}
+
+.subText-V8PTt8:hover {
+	filter: blur(0px);
+	transition: filter .3s;
+}
+
+/* Indicator */
+
+.theme-dark .defaultIndicator-G3c16x {
+    background: var(--Color002);
+    color: var(--Color007);
+	border-radius: 90px;
+}
+
+.theme-dark .premiumIndicator-1XvbfM {
+    background: var(--Color001);
+    color: #fff;
+	border-radius: 90px;
+}
+
+/* Payment History | Background*/
+
+.theme-dark .paginator-166-09 {
+    background-color: var(--Color004);
+}
+
+/* Payment History | Header */
+
+.theme-dark .paymentPane-3bwJ6A{
+    background: var(--Color003);
+    border-radius: 24px 24px 0 0;
+    color: var(--Color007);
+}
+
+/* Payment History | Items */
+
+.theme-dark .payment-xT17Mq {
+    background: var(--Color002);
+    color: var(--Color008);
+}
+
+/* Payment History | Footer */
+
+.pageActions-1SVAnA {
+    background: var(--Color003);
+    border-radius: 0 0 24px 24px;
+    color: var(--Color007);
+}
+
+
+.theme-dark .bottomDivider-1K9Gao {
+    border-bottom-color: var(--Color003);
+}
+
+.theme-dark .expandedInfo-3kfShd {
+    background: var(--Color003);
+	border-radius: 24px;
+}
+
+/* Payment History | Info Text */
+
+.theme-dark .codeRedemptionRedirect-1wVR4b {
+    color: var(--Color007);
+    background: var(--Color005);
+    border: none;
+}
+
+/* Payment History | Buttons */
+
+.theme-dark .pageButtonNext-V2kUq0, .pageButtonPrev-1Y-47D, .pageIndicator-1gAbyA {
+    border: none;
+    background: var(--Color003);
+}
+
+.pageButtonPrev-1Y-47D, .pageButtonNext-V2kUq0 {
+    border-radius: 90px;
+}
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Settings | Subscriptions |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/* Banner */
+
+.tier2-3hSil0.banner-3Kac2g {
+    background: var(--Color001);
+    border-radius: 24px;
+}
+
+.bannerBackgroundImage-1DMjWi {
+	border-radius: 24px;
+}
+
+/* No Header */
+
+.hero-EvfTTA {
+    display: none;
+}
+
+/* Payment */
+
+.paymentSourceLabel-1lo4Ca {
+    filter: blur(4px);
+}
+
+.paymentSourceLabel-1lo4Ca:hover {
+    filter: blur(0px);
+}
+
+.detailsBlock-FoDTGA {
+    background: var(--Color003);
+    border-radius: 24px;
+}
+
+.hero-EvfTTA {
+    border-radius: 24px;
+}
+
+/* Input */
+
+.lookFilled-1h1y05.select-1Pkeg4 {
+    background: var(--Color005);
+    border-radius: 24px;
+    border: none;
+}
+
+.lookFilled-1h1y05.popout-2sKjHu {
+    background: var(--Color005);
+    border-radius: 24px;
+    border: none;
+    margin-top: -38px;
+
+}
+
+.optionActive-KkAdqq, .optionFocused-8MflSE {
+    background: var(--Color005);
+}
+
+.lookFilled-1h1y05 .arrow-2KJjTM {
+    z-index: 20;
+    color: var(--Color007);
+}
+
+/* Nitro Includes */
+
+.base-1x0h_U {
+    color: var(--Color007);
+}
+
+.size32-o_H79z {
+    font-size: 22px;
+    line-height: 20px;
+}
+
+.theme-dark .feature-2w65J5 {
+    background: var(--Color003);
+}
+
+.feature-2w65J5 {
+    border-radius: 24px;
+    min-height: 90px;
+}
+
+.featureGrid-3-fNl- {
+    grid-template-columns: repeat(auto-fill,322px);
+}
+
+.featureImageWrapper-pPDLjm {
+    display: none;
+}
+
+/* Buy Nitro */
+
+.marketingRefreshTier2Cta-bw9Vyc {
+    background: var(--Color003);
+    border-radius: 24px;
+    padding: 24px;
+    text-align: center;
+    margin-top: 48px;
+    border: none;
+}
+
+/* Buy Nitro Classic */
+
+.marketingRefreshTier1Logo-sY6Lgd {
+    color: var(--header-primary);
+    display: block;
+    height: 20px;
+    margin-bottom: 8px;
+    width: 194px;
+}
+
+.marketingRefreshSectionTier1-dRwS-6 {
+    background: var(--Color003);
+    border-radius: 24px;
+    padding: 24px;
+    text-align: center;
+    margin-top: 48px;
+    border: none;
+}
+
+
+.marketingRefreshTier1Graphic-9B12wx {
+    display: none;
+    height: 148px;
+    margin-right: 60px;
+    width: 175px;
+}
+/* Buy Nitro Classic | Buttons */
+
+.buttons-2-EdE8 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+}
+
+/* Info */
+
+.finePrint-ULGqdp {
+    border: none;
+}
+
+.finePrint-ULGqdp {
+    background: var(--Color005);
+    border-radius: 24px;
+    padding: 24px;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: justify;    
+}
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Settings | Gift Inventory ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Settings | Server Boost ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/* Active Server Boost */
+
+.guildHeader-3nh5RK {
+    border-radius: 24px 24px 0 0;
+    background-color: var(--Color003);
+}
+
+.guildSubscriptionSlots-JPXXvN {
+    background-color: var(--Color003);
+}
+
+.guildHeaderBackground-1G51bM {
+    display: none;
+}
+
+/* Icons */
+
+.memberBadgeIcon-1hpSQc, .roleIcon-F8XDd3, .emojiIcon-2xOPMD, .audioQualityIcon-1KNkhv, .uploadSizeIcon-2HNa5p {
+    color: var(--Color001);
+}
+
+/* Cards */
+
+.cardWrapper-2Min21 {
+    border-radius: 24px;
+}
+
+/* No Logo */
+
+.marketingLogo-1D8DV6 {
+    display: none;
+}
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Settings | HypeSquad |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+.membershipDialogHouse2-35h9SY {
+    background-color: var(--Color001);
+    border-radius: 24px;
+}
+
+.videoWrapper-3YdgHH {
+    display: none;
+}
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| App Settings | Voice & Video |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/* Grabber */
+
+.grabber-3mFHz2 {
+    background-color: var(--Color006);
+    border-radius: 90px;
+    height: 16px;
+    width: 16px;
+    margin-top: -8.5px;
+    margin-left: -5px;
+}
+
+/* Mic Test */
+
+.theme-dark .notches-1sAcEM.gray-3_LNYR {
+    display: none;
+
+}
+
+.theme-dark .progress-1IcQ3A, .wrapper-3Z-vWm {
+    background: var(--Color003);
+
+}
+
+.wrapper-3Z-vWm {
+    background: var(--Color003);
+
+}
+
+/* Preview */
+
+.theme-dark .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC {
+    background: var(--Color005);
+    border-radius: 24px;
+}
+
+.userSettingsVoice-iwdUCU .media-engine-video {
+    border-radius: 24px;
+    border: none;
+}
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| App Settings | Overlay |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| App Settings | Notifications |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| App Settings | Keybinds ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| App Settings | Game Activity |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| App Settings | Text & Images |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| App Settings | Appearance ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| App Settings | Streamer Mode |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| App Settings | Language ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| App Settings | Windows Settings ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Powercord Settings | General Settings ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Powercord Settings | Updater |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Powercord Settings | Plugins |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Powercord Settings | Themes ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Powercord Settings | Spotify |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Powercord Settings | Emote Utility |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Settings | Change Log ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Server Panel |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/* No Guild Separator */
+
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ .guildSeparator-3s64Iy {
+    display: none;
+}
+
+/* Background */
+
+.guilds-1SWlCJ .scroller-2TZvBN {
+    padding-top: 80px;
+}
+
+.wrapper-1Rf91z {
+    background-color: transparent;
+}
+
+.scroller-2TZvBN {
+    background-color: var(--Color004);
+	border-radius: 0 38px 38px 0;
+	margin-bottom: 25px;
+	margin-top: 12px;
+}
+
+.layer-3QrUeG.baseLayer-35bLyl {
+    background: var(--Color003);
+}
+
+/* Button Color */
+
+.childWrapper-anI2G9 {
+    background: var(--Color003);
+    color: var(--Color008);
+}
+
+.circleIconButton-jET_ig {
+    color: var(--Color008);
+    background-color: var(--Color003);
+}
+
+/* Home Button */
+
+.tutorialContainer-1v44GL {
+    background: var(--Color005);
+	border-radius: 0 90px 90px 0;
+    position: fixed;
+    z-index: 3;
+    top: 45px;
+	padding-bottom: 4px;
+	padding-top: 12px;
+}
+
+/* Create Server Button */
+
+.tutorialContainer-SGrQ1h {
+    background: var(--Color005);
+	border-radius: 0 90px 90px 0;
+    position: fixed;
+    z-index: 3;
+	padding-bottom: 4px;
+    padding-top: 12px;
+    bottom: 25px;
+}
+
+
+/* Closed Folder */
+
+.closedFolderIconWrapper-15K9MK {
+    background: var(--Color004);
+}
+
+/* Open Folder */
+
+.folder-21wGz3 {
+    border-radius: 90px;
+    background-color: var(--Color002);
+}
+
+.expandedFolderBackground-2sPsd- {
+    background: var(--Color003);
+    border-radius: 90px;
+}
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Channel Panel ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+.container-PNkimc {
+    background: var(--Color003);
+}
+
+/* background */
+
+.clickable-2ap7je {
+    background: var(--Color004);
+}
+
+.clickable-2ap7je {
+	border-radius: 24px 24px 0 0;
+}
+
+.clickable-2ap7je .header-2o-2hj {
+    background: transparent;
+	height: 36px;
+}
+
+.animatedContainer-1pJv5C, .bannerImage-1jOskm {
+	z-index: 2;
+	border-radius: 24px;
+    position: absolute;
+    height: 120px;
+}
+
+.sidebar-2K8pFh {
+    width: 236px;
+}
+
+.scroller-2wx7Hm {
+    background: var(--Color004);
+	padding-bottom: 240px;
+	border-radius: 0 0 24px 24px;
+}
+
+/* Content */
+
+.containerDefault-1ZnADq, .clickable-18m--O {
+	padding-right: 8px;
+}
+
+/* Selector */
+
+.modeSelected-1zApJ_ .content-3at_AU, .modeSelected-1zApJ_:hover .content-3at_AU {
+    background-color: var(--Color002);
+	border-radius: 90px;
+}
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Profile Panel ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/* Game */
+
+.panel-24C3ux {
+	position: absolute;
+	background: var(--Color005);
+	border-radius: 24px;
+	padding-top: 14px;
+	padding-bottom: 150px;
+	z-index: 90;
+	width: 220px;
+	bottom: 16px;
+	left: 6px;
+}
+
+/* Voice */
+
+.container-1giJp5 {
+	position: absolute;
+	background: var(--Color004);
+	border-radius: 24px;
+	padding-top: 14px;
+	padding-bottom: 50px;
+	z-index: 90;
+	width: 220px;
+	bottom: 20px;
+	left: 6px;
+}
+
+.button-1YfofB.buttonColor-7qQbGO {
+    background-color: var(--Color003);
+    color: var(--Color007);
+}
+
+/* Profile */
+
+.container-3baos1, .panels-j1Uci_ {
+	position: absolute;
+	background: var(--Color005);
+	border-radius: 90px;
+	z-index: 90;
+	width: 220px;
+	bottom: 12px;
+	left: 6px;
+}
+
+/* Profile Hover */
+
+.panels-j1Uci_ > .container-3baos1:hover button.button-14-BFJ{
+  display: block;
+}
+
+.panels-j1Uci_ > .container-3baos1 button[aria-checked="false"], .panels-j1Uci_ > .container-3baos1 button:not([role="switch"]) {
+  display: none;
+  background: var(--Color005);
+}
+
+/* Spotify */
+
+.powercord-spotify .spotify-seek-bar, .spotify-seek, .spotify-seek-bar-progress, .spotify-seek-bar-progress {
+	display: none;
+}
+
+.powercord-spotify {
+	display: none;
+}
+
+/* Game Icon */
+
+.gameIcon-gg34Dz {
+    border-radius: 90px;
+    width: 120%;
+    height: 120%;
+    color: var(--Color006);
+}
+
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Topic Panel ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/* No Divider */
+
+.content-yTz4x3:before, .divider-3FBTu8{
+    display: none;
+}
+
+:root{
+    --elevation-low: none;
+}
+
+.channelNotice-3DDmsB{
+    box-shadow: none;
+}
+
+.attachWrapper-2TRKBi, .panel-24C3ux, .peopleListItem-2nzedh, .rowWrapper-2fB6P0+.rowWrapper-2fB6P0 .row-ZLfFhY, .header-39GIC8, .headerCell-3L6rFG{
+    border: none;
+}
+
+/* Channel Info */
+
+.children-19S4PO {
+	background: var(--Color004);
+	border-radius: 90px;
+	Padding: 6px;
+	margin-right: 20px;
+}
+
+
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Tool Panel |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/* Background */
+
+.toolbar-1t6TWx {
+	background: var(--Color004);
+	border-radius: 90px;
+	Padding: 6px;
+}
+
+.container-1r6BKw {
+    padding-right: 12px;
+    padding-left: 0px;
+}
+
+/* Update Icon */
+
+.updateIconForeground-3tnNZn {fill: var(--Color010)}
+.updateIconForeground-3tnNZn:hover {fill: var(--Color010)}
+.updateIconForeground-3tnNZn:active {fill: var(--Color010)}
+
+/* Searchbar */
+
+.searchBar-3dMhjb {
+    background: transparent;
+}
+
+/* Follow Button */
+
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
+    background: var(--Color001);
+}
+
+.container-1r6BKw.themed-ANHk51 {
+    background: var(--Color003);
+	height: 60px;
+}
+
+.header-2o-2hj {
+    position: relative;
+    font-weight: 500;
+    padding: 0 16px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    z-index: 3;
+    -webkit-transition: background-color .1s linear;
+    transition: background-color .1s linear;
+    color: var(--header-primary);
+    -webkit-box-shadow: var(--elevation-low);
+    box-shadow: var(--elevation-low);
+}
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Chat Panel |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/* Background */
+
+.content-yTz4x3 {
+    padding-right: 12px;
+}
+
+.chatContent-a9vAAp {
+    background-color: var(--Color004);
+	border-radius: 24px;
+	margin-bottom: 28px;
+}
+
+.content-yTz4x3 {
+    background-color: var(--Color003);
+}
+
+/* Avatar */
+
+.avatar-1BDn8e {
+    width: 60px;
+    height: 60px;
+  	background: var(--Color003);
+	margin-left: 10px;
+}
+
+/* Text Align */
+
+.cozy-3raOZG .messageContent-2qWWxC {
+	font-family: var(--font);
+    text-align: justify;    
+	margin-left: -72px;
+    padding-left: 72px;
+	margin-right: 40px;
+}
+
+/* Text Spacing */
+
+.compact-T3H92H.wrapper-2a6GCs, .cozy-3raOZG.wrapper-2a6GCs {
+	padding-left: 110px;
+    padding-top: .600rem;
+    padding-bottom: .600rem;
+}
+
+/* No Scrollbar*/
+
+.scrollerBase-289Jih::-webkit-scrollbar{
+    display: none;
+}
+
+/* Hide edit */
+
+.edited-3sfAzf {
+    display: none;
+}
+
+/* Round Image */
+
+.imageWrapper-2p5ogY img {
+    border-radius: 16px;
+}
+
+/* Round video */
+
+.wrapper-2TxpI8 {
+    border-radius: 16px;
+}
+
+/* Reaction */
+
+.reaction-1hd86g {
+    background: var(--Color003);
+    border-radius: 1rem;
+}
+
+/* No Chat Header */
+
+.hasDivider-20M1le {
+	display: none;
+}
+
+.container-3zqIcM {
+	display: none;
+}
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Chat Panel | Embed |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+.embedFull-2tM8-- {
+    background: var(--Color005);
+    border-top-right-radius: 24px;
+	border-bottom-right-radius: 24px;
+    border-left: 5px solid var(--Color001);
+}
+
+.embedAuthorName-3mnTWj, .embedAuthorNameLink-1gVryT, .embedDescription-1Cuq9a, .embedFieldName-NFrena, .embedFieldValue-nELq2s, .embedFooterText-28V_Wb, .embedLink-1G1K1D, .embedProvider-3k5pfl, .embedTitle-3OXDkz, .embedTitleLink-1Zla9e {
+    text-align: justify;
+}
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Chat Panel | Mention |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+#app-mount .chat-3bRxxu .messagesWrapper-3lZDfY .cozyMessage-3V1Y8y:not(.groupStart-23k01U) {
+  padding-bottom: 20px;
+  margin-top: -22px;
+  border-bottom-right-radius: 24px;
+  border-bottom-left-radius: 24px;
+}
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Chat Panel | Message Divider |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+:root .divider-JfaTT5{
+    margin-right: 138px;
+    margin-left: 138px;
+    border: none;
+}
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Chat Panel | Time Divider ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+.content-1o0f9g {
+    background: var(--Color003);
+    border-radius: 90px;
+    width: 100%;
+    padding: 8px;
+    text-align: center;
+	padding-right: 50px;
+}
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Chat Panel | Quotes like embeds ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+.theme-dark .blockquoteContainer-U5TVEi blockquote {
+    background-color: var(--Color003);
+    border-color: var(--Color003);
+ 
+}
+
+.blockquoteContainer-U5TVEi blockquote {
+    border: 2px solid;
+    border-top-right-radius: 24px;
+ 	border-bottom-right-radius: 24px;
+    padding: 8px 12px 4px;
+   	margin-bottom: 20px;
+  
+}
+
+.blockquoteContainer-U5TVEi .blockquoteDivider-2hH8H6 {
+    border-radius: 4px 0px 0px 4px;
+  	background-color: var( --Color001);
+    margin-bottom: 20px;
+}
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Chat Panel | Download ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+.attachment-33OFj0 {
+    border: none;
+    background-color: var(--Color005);
+	border-radius: 24px;
+}
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Chat Panel | New Message |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+.unreadPill-2HyYtt{
+	background: var(--Color001);
+    border-radius: 90px;
+    padding: 14px;
+	margin-top: -7px;
+	margin-right: 1110px;
+    width: 4%;
+}
+
+.unreadPillCap-3_K2q2{
+    display: none;
+}
+
+.unreadPillCapStroke-7rkHbg {
+    color: var(--Color001);
+    fill: var(--Color001);
+}
+
+.isUnread-3Ef-o9 .content-1o0f9g {
+    color: var(--Color006);
+}
+
+:root .isUnread-3Ef-o9:not(.hasContent-1cNJDh){
+    margin: 10px 47px;
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+}
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Chat Panel | Code Menu |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/* Background */
+
+.markup-2BOw-j code {
+    background: var(--Color005);
+    border: transparent;
+    border-radius: 8px;
+}
+
+.hljs .powercord-lines:after {
+    padding-right: 8px;
+    left: 3px;
+    border-right: 1px solid var(--Color005);
+}
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Chat Panel | Emoji Info ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+.emojiSection-3Fb9ix {
+    background: var(--Color005);
+
+}
+
+.container-ZRw2kD {
+    width: auto;
+    border-radius: 24px;
+	box-shadow: 0px 8px 12px -2px var(--Color005);
+}
+
+.guildSection-1EoFKd {
+    background: var(--Color004);
+    padding: 16px;	
+}
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Chat Panel | New Member ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/* Text */
+
+.content-2M3n_H {
+	padding-left: 34px;
+}
+
+/* Icon */
+
+.iconContainer-3GkGRf {
+    position: absolute;
+    left: 4px;
+    padding-top: .16rem;
+}
+
+/* Background */
+
+.container-3-pyIM {
+	background: var(--Color003);
+	border-radius: 90px;
+	padding: 8px
+}
+
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* ||| Chatbox Panel |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+/* Background */
+
+.form-2fGMdU {
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
+
+.scrollableContainer-2NUZem {
+	position: relative;
+    background: var(--Color005);
+    max-height: 37vh;
+  	border-radius: 24px;
+	z-index: 3;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.characterCount-1cRDo2 {
+	z-index: 3;
+}
+
+.channelTextArea-rNsIhG {
+    margin-bottom: -3px;
+	border-radius: 24px;
+}
+
+.theme-dark .form-2fGMdU:before {
+	background: transparent;
+}
+
+/* Text Align */
+
+.slateTextArea-1Mkdgw {
+    text-align: justify;
+	margin-left: 28px;
+}
+
+.placeholder-37qJjk {
+    left: 28px;
+}
+
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* ||| Member Panel ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+.members-1998pB, .members-1998pB>div {
+    background-color: var(--Color004);
+	border-radius: 24px;
+
+	margin-left: 12px;
+	margin-bottom: 25px;
+}
+
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* ||| Home ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+/*  Sidebar */
+
+.scroller-1JbKMe {
+    background: var(--Color004);
+}
+
+#app-mount .sidebar-2K8pFh {
+    background: transparent;
+    border-radius: 24px;
+    margin-top: 12px;
+    margin-right: 12px;
+    margin-left: 12px;  
+    margin-bottom: 28px;
+}
+
+.layout-2DM8Md {
+    border-radius: 90px;
+    height: 46px;
+}
+
+/* Sidebar Button */
+
+.selected-aXhQR6 .layout-2DM8Md {
+    background: var(--Color003);
+}
+
+/* Searchbar */
+
+.privateChannels-1nO12o {
+    background: var(--Color004);
+    padding-top: 39px;
+}
+
+.searchBar-6Kv8R2 {
+    background-color: var(--Color005);
+    border-radius: 24px;
+    z-index: 90;
+    position: fixed;
+    left: 84px;
+    right: 1602px;
+    top: 45px;
+    height: 36px;
+}
+
+/* Topbar */
+
+.topPill-30KHOu .item-PXvHYJ {
+    border-radius: 94px;
+    margin: 0 8px;
+    padding: 2px 12px;
+}
+
+/*  Friendstatus */
+
+.peopleColumn-29fq28 {
+	border-radius: 24px;
+    background: var(--Color004);
+}
+
+.tabBody-3YRQ8W {
+    background: var(--Color003);
+    padding-bottom: 25px;
+}
+
+/*  Friendstatus | Buttons*/
+
+.actionButton-uPB8Fs {
+    background: var(--Color003);
+}
+
+/*  Friendstatus | Avatar*/
+
+.wrapper-3t9DeA, .avatar-3W3CeO {
+    background: var(--Color002);
+}
+
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* ||| Home | Active Now |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+/* Empty Card */
+
+.emptyCard-1RJw8n {
+    border-radius: 24px;
+    padding: 24px;
+}
+
+/* No Header */
+
+.header-13Cw0- {
+	display: none;
+}
+
+
+/* Background */
+
+.nowPlayingScroller-2XrVUt {
+    padding-top: 0px;
+    padding-left: 12px;
+}
+
+.wrapper-3D2qGf {
+    background-color: var(--Color005);
+  	border-radius: 24px;
+}
+
+.nowPlayingColumn-2sl4cE {
+    background: var(--Color003);
+
+}
+
+.emptyCard-1RJw8n {
+    background: var(--Color004);
+}
+
+/* Items */
+
+.section-2gLsgF {
+	background: var(--Color003);
+  	border-radius: 24px;
+    position: relative;
+    padding: 12px;
+}
+
+.theme-dark .inset-3sAvek {
+    background-color: transparent;
+}
+
+/* Activity Avatar */
+
+.activitySectionAssets-32WyHu .largeImage-DLXk-f {
+	border-radius: 90px;
+    width: 32px;
+    height: 32px;
+}
+
+/* Divider */
+
+.theme-dark .separator-XqIyoz {
+    background-color: transparent;
+	padding-top: 8px;
+}
+
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* ||| Call ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+/*  Background */
+
+.flexCenter-2Y_vCg {
+    background: #000;
+}
+
+.wrapper-2qzCYF.fullScreen-1tMzXY, .wrapper-2qzCYF.noChat-18KtBD {
+
+    background: var(--Color003);
+}
+
+/*  Call Dock */
+
+div[class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1GKY directionRow-3v3tfG justifyCenter-3D2jYp alignCenter-1dQNNs noWrap-3jynv6"][style="flex: 1 1 auto;"]{
+    border-radius: 30px;
+    margin-bottom: 21px;
+    background: var(--Color003);
+  }
+
+.colorable-1bkp8v.white-3GPOIp, .colorable-1bkp8v.white-3GPOIp .centerIcon-2G6o-T {
+    color: currentColor;
+}
+
+.colorable-1bkp8v.primary-3NQg8g,
+.colorable-1bkp8v.primary-3NQg8g.active-1QRrIS, .colorable-1bkp8v.primary-3NQg8g:hover, 
+.colorable-1bkp8v.white-3GPOIp,
+.centerButton-3CaNcJ,
+.colorable-1bkp8v.white-3GPOIp.active-1QRrIS, .colorable-1bkp8v.white-3GPOIp:hover,
+.colorable-1bkp8v.red-33-Lnk {
+    background: none !important;
+}
+
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* ||| Call | Picture in Picture |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+.pictureInPictureWindow-1B5qSe{
+
+    border-radius: 24px;
+    right: -308px;
+    top: -20px;
+    width: 240px;
+    height: 140px;
+}
+
+.media-ya5FZp {
+    -o-object-fit: contain;
+    object-fit: fill;
+}
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Discover  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/* Background */
+
+.theme-dark .pageWrapper-1PgVDX {
+    background-color: var(--Color003);
+}
+/* Round Header */
+
+.headerImage-3X1tyY {
+    border-radius: 24px;
+}
+/* Server Card */
+
+.theme-dark .card-3DjzTQ, .theme-dark .iconMask-3b8GzQ {
+    background-color: var(--Color004);
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Server Menu ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Server Menu | Overview  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+.flag-16iIBd {
+    position: relative;
+    border-radius: 90px;
+    margin-left: 2px;
+    width: 36px;
+    height: 24px;
+}
+
+.theme-dark .container-1nZlH6 {
+    background: var(--Color005);
+	border: none;
+	border-radius: 90px;
+}
+
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Server Menu | Roles  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Server Menu | Emoji  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Server Menu | Moderation  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+.checkbox-1ix_J3 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 90px;
+}
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Server Menu | Audit Log  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+.theme-dark .auditLog-3jNbM6 {
+	border: none;
+}
+
+.theme-dark .headerClickable-2IVFo9, .theme-dark .headerDefault-1wrJcN {
+    background: var(--Color005);
+    color: #b9bbbe;
+	border: none;
+	border-radius: 30px;
+}
+
+.theme-dark .headerExpanded-CUEwZ5 {
+    background: var(--Color005);
+	border-radius: 30px 30px 0 0;
+    color: #b9bbbe;
+}
+
+
+.theme-dark .changeDetails-bk98pu {
+    background: var(--Color003);
+	border-radius: 0 0 30px 30px;
+}
+
+.theme-dark .divider-1pnAR2 {
+    display: none;
+}
+
+.theme-dark .timestamp-1mruiI {
+    color: var(--Color009);
+}
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Server Menu | Integrations  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Server Menu | Widget  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Server Menu | Server Template  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Server Menu | Overview  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Server Menu | Overview  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* ||| Modals | Verify Phone |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+.phoneField-38N1bJ .countryButton-3xq3Ts {
+    border-radius: 24px;
+}
+
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* ||| Modals | Profile Card |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+/* Background */
+
+.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
+    background: var(--Color004);
+    color: #fffc;
+}
+
+.userPopout-3XzG_A {
+	box-shadow: 0px 8px 12px -2px var(--Color005);
+    width: 240px;
+    border-radius: 24px;
+    max-height: calc(100vh - 20px);	
+}
+
+/* Roles */
+
+.role-2irmRk{
+  
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    border: none;
+    padding: 5px;
+}
+
+.roleCircle-3xAZ1j::before{
+    content: "";
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    background: inherit;
+    opacity: .2;
+    z-index: -1;
+    pointer-events: none;
+}
+
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* ||| Modals | Profile ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+.header-QKLPzZ {
+    background-color: var(--Color005);
+}
+
+.activity-1ythUs {
+    background-color: var(--Color00);
+}
+
+/* Background */
+
+.body-3ND3kc {
+    background-color: var(--Color004);
+}
+
+.root-SR8cQa {
+    background-color: var(--Color004);
+    border-radius: 24px;
+    overflow: hidden;
+    position: relative;
+	width: 900px;
+	height: 546px;
+}
+
+/* Note */
+
+.note-QfFU8y textarea {
+    border-radius: 90px;
+    font-size: 15px;
+    line-height: 16px;
+    padding-left: 20px;
+	padding-top: 14px;
+}
+
+/* Icon Tabs */
+
+.connectedAccount-36nQx7 {
+    margin-top: 20px;
+    padding: 8px 14px 8px 8px;
+    width: 240px;
+    background: var(--Color002);
+	border-radius: 90px;
+	border: none;
+}
+
+.infoScroller-3EYYns {
+    padding: 0 20px;
+    height: 540px;
+}
+
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* ||| Modals | Pinbox |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+.messagesPopoutWrap-1MQ1bW {
+    border-radius: 24px;
+    top: 10px;
+    right: -294px;
+    width: 900px;
+}
+
+.messageGroupWrapper-o-Zw7G {
+    border-radius: 24px;
+    margin: 12px;
+}
+
+.messagesPopout-24nkyi {
+    padding: 0px;
+}
+
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* ||| Modals | Inbox ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+.theme-dark .header-2-Imhb .tabBar-1kuXvJ .tab-ck0077.active-1MbGPa {
+    background-color: var(--Color001);
+	border-radius: 90px;
+}
+
+.recentMentionsPopout-3rCiI6 {
+    width: 35vw;
+    max-width: 900px;
+    min-width: 900px;
+    max-height: 80vh;
+}
+
+.container-enaOkj {
+    border-radius: 24px;
+}
+
+.container-3u944p {
+	background: var(--Color004);
+}
+
+.icon-1Itzco {
+    background-color: var(--Color003);
+    border-radius: 80px;
+    color: var(--text-muted);
+    padding: 22px;
+}
+
+/* Unreads */
+
+.icon-1Itzco {
+    background-color: var(--Color003);
+    border-radius: 80px;
+    color: var(--text-muted);
+    padding: 22px;
+}
+
+.stars-1YAEQv {
+	display: none;
+}
+
+.size12-3cLvbJ {
+    font-size: 13px;
+    line-height: 16px;
+}
+
+/* Mention */
+
+.guildIcon-3Co6k- {
+    background-color: var(--Color002);
+	border-radius: 90px;
+}
+
+.secondary-dIudih {
+    background-color: var(--Color002);
+    color: var(--Color008);
+}
+
+.container-3iAQ-0 {
+    background-color: var(--Color005);
+}
+
+
+.channelHeader-3Gd2xq {
+    background-color: var(--Color005);
+}
+
+.messageContainer-gbhlwo {
+    background-color: var(--Color004);
+    border-radius: 24px;
+	padding: 0px;
+
+}
+
+.container-3iAQ-0 {
+    margin-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;	
+}
+
+.tertiary-aMXF0g {
+    background-color: var(--Color002);
+    color: var(--Color008);
+}
+
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* ||| Modals | Status Selection |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+.menu-3sdvDG {
+    border-radius: 20px;
+}
+
+.item-1tOPte {
+    border-radius: 24px;
+}
+
+.description-2L932D {
+    margin-bottom: 0px;
+    font-size: 0px;
+    line-height: 0px;
+
+}
+
+.scroller-3BxosC {
+    padding: 8px 8px;
+}
+
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* ||| Modals | Contex Menu ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+.wrapper-2aW0bm {
+    background-color: var(--Color002);
+    border-radius: 24px;
+	box-shadow: 0px 8px 8px -2px var(--Color005);
+}
+
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* ||| Modals | Share Media ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+
+.attachPopout-36hjtN {
+    border-radius: 24px;
+    background-color: var(--Color005);
+    box-shadow: none;
+}
+
+.attachPopoutRow-3iqqu1 {
+    border-radius: 90px;
+    color: var(--Color008);
+}
+
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* ||| Modals | Search History |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+.searchResultsWrap-3-pOjs {
+    background-color: var(--Color003);
+    width: 800px;
+}
+
+.searchResult-9tQ1uo:before {
+    z-index: 1;
+    top: 0;
+    background-image: linear-gradient(0deg,#0000,var(--Color003));
+}
+
+.searchResult-9tQ1uo:after {
+    bottom: 0;
+    background-image: linear-gradient(180deg,#0000,var(--Color003));
+}
+
+.channelName-1JRO3C {
+    background: var(--Color003);
+}
+
+.searchResultMessage-1fxgXh.hit-1fVM9e {
+    background: var(--Color004);
+    position: relative;
+    z-index: 1;
+    max-height: none;
+	box-shadow: 0px 8px 12px -2px var(--Color005);
+    border: none;
+    border-radius: 24px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.searchResult-9tQ1uo.expanded-w_LCGl {
+    background: var(--Color005);
+    border-radius: 24px;
+	border: none;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.expanded-w_LCGl .searchResultMessage-1fxgXh.hit-1fVM9e {
+    background: var(--Color004);
+}
+
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* ||| Modals | Color Picker |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+.theme-dark .colorPickerCustom-2CWBn2 {
+    background: var(--Color004);
+	border: none;
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.backdrop-1wrmKB {
+	opacity: 0.1;
+    background: #fff;
+    transform: translateZ(0px);
+}
+
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* ||| Modals | Emoji Picker |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+/* Background */
+
+.inspector-S2gM3e {
+    background-color: var(--Color005);
+}
+
+.contentWrapper-SvZHNd {
+    background: var(--Color005);
+    border-radius: 24px;
+	padding-bottom: 40px;
+    height: 111%;
+	box-shadow: none;
+}
+
+.positionContainer-DEuh7X {
+    height: 444px;
+    z-index: 2;
+}
+
+.theme-dark .wrapper-1-Fsb8 {
+    background: var(--Color005);
+	border-radius: 24px;
+}
+
+/* Search */
+
+.container-2XeR5Z {
+    background-color: var(--Color004);
+	border-radius: 90px;
+}
+
+.input-3Xdcic {
+    background-color: var(--Color004);
+	border-radius: 90px;
+}
+
+/* Header */
+
+.inspector-sdLnLS {
+    background: var(--Color003);
+	border-radius: 24px;
+}
+
+/* Button */
+
+.navButtonActive-1MkytQ {
+    background-color: var(--Color001);
+    color: #fff;
+}
+
+/* Icon */
+
+.categoryItemDefaultCategorySelected-_HCKoz, .categoryItemDefaultCategorySelected-_HCKoz:hover {
+    background-color: var(--Color003);
+	border-radius: 90px;
+	
+}
+
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* ||| Modals | Autocomplete |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+/* Background */
+
+:root .autocomplete-Z9HwQh{
+    background: var(--Color005);
+    bottom: calc(100% - 8px);
+    border-radius: 24px;
+    box-shadow: none;
+	padding-bottom: 48px;
+	margin-bottom: -42px;
+	z-index: 1;
+}
+
+/* Header */
+
+:root .contentTitle-2tG_sM{
+    color: var(--Color006);
+}
+
+/* Selector */
+
+:root .selectorSelected-1_M1WV{
+    background: var(--Color003);
+	border-radius: 90px;
+}
+
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* ||| Modals | Create Channel |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+.theme-dark .modal-yWgWj- {
+    background-color: var(--Color003);
+    box-shadow: none;
+	border-radius: 24px;
+}
+
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* ||| Modals | Reaction Emoji Menu ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+/* Background */
+
+.emojiPicker-3PwZFl {
+    background-color: var(--Color005);
+    border-radius: 24px;
+    box-shadow: none;
+	border: none;
+}
+
+/* Inspector */
+
+.inspector-sdLnLS {
+    background: var(--Color005);
+    border-radius: 24px;
+}
+
+/* Emoji */
+
+.unicodeShortcut-15J8Ck {
+    color: var(--Color008);
+    height: 56px;
+
+}
+
+.emojiItem-14v6tW.emojiItemSelected-1aLkfV {
+    background: var(--Color002);
+    border-radius: 90px;
+}
+
+.guildIcon-3h-1IH {
+    background: var(--Color002);
+	border-radius: 90px;
+}
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Modals | Create a Server  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/* Background */
+
+.theme-dark .root-1gCeng {
+    background: var(--Color005);
+}
+
+/* Header */
+
+.colorHeaderPrimary-26Jzh- {
+    color: var(--Color007);
+}
+
+/* Sub Header */
+
+.colorStandard-2KCXvj {
+    color: var(--Color007);
+}
+
+/* Text */
+
+.colorHeaderSecondary-3Sp3Ft {
+    color: var(--Color009);
+}
+
+/* Items */
+
+.itemContainer-1LSFks {
+    border-radius: 90px;
+    border: 1px solid var(--background-modifier-accent);
+    background: var(--Color004);
+    margin-bottom: 8px;
+}
+
+/* Button */
+
+.lookFilled-1Gx00P.colorGrey-2DXtkV {
+    color: var(--Color006);
+    background: var(--Color002);
+}
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Add-Ons | Button zoom effect  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+.button-14-BFJ, .grow-q77ONN, .iconItem-1-bXkn, .closeButton-2GCmT5, .icon-22AiRD, .addButton-1BORrom, .closeButton-1tv5uR {
+    transition: all .2s ease-in-out;
+}
+  
+.button-14-BFJ:hover, .iconItem-1-bXkn:hover, .closeButton-2GCmT5:hover, .icon-22AiRD:hover, .addButton-1BORro:hover, .closeButton-1tv5uR:hover {
+      transform: scale(1.2);
+}
+  
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Add-Ons | Old Status indicator |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+.header-QKLPzZ rect[mask="url(#svg-mask-status-online)"], .userPopout-3XzG_A rect[mask="url(#svg-mask-status-online)"] {
+      fill: #43b581;
+}
+  
+.wrapper-3t9DeA rect[mask="url(#svg-mask-status-idle)"] {
+      fill: #faa61a;
+      mask: url(#svg-mask-status-online);
+}
+  
+.wrapper-3t9DeA rect[mask="url(#svg-mask-status-dnd)"] {
+      fill: #f04747;
+      mask: url(#svg-mask-status-online);
+}
+  
+.wrapper-3t9DeA rect[mask="url(#svg-mask-status-streaming)"]{
+      mask: url(#svg-mask-status-online);
+}
+  
+.wrapper-3t9DeA rect[mask="url(#svg-mask-status-offline)"] {
+      mask: url(#svg-mask-status-online);
+}
+  
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Add-Ons | Animated Ping ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+.numberBadge-2s8kKX {
+    animation: animatedPing 1.5s infinite ease-in-out;
+}
+  
+@keyframes animatedPing {
+    0% {
+      transform: scale(1.0);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1.0);
+    }
+  }
+  
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Add-Ons | Windows Menu |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+#app-mount > div[class*="titleBar"] > div[class*="wordmark"] {
+    margin-top: .2rem;
+}
+  
+#app-mount > div[class*="titleBar"] {
+    display: grid;
+    justify-content: right;
+    grid-template-columns: min-content min-content min-content;
+    direction: rtl;
+    height: 1.72rem;
+    margin: 5px 0px 0px 0px;
+}
+  
+#app-mount > div[class*="titleBar"] > div[class*="winButton"] {
+    display: grid;
+    width: 2.9rem;
+    height: 1.72rem;
+}
+  
+#app-mount > div[class*="titleBar"] > div[class*="winButton"] > svg {
+    height: 100%;
+    width: 100%;
+
+    #app-mount > div[class*="app"] {
+    margin-top: -.18rem;
+    }
+}
+
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Add-Ons | Remove Gif & Nitro Icon ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+.buttonWrapper-1ZmCpA {display: none;}
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Add-Ons | Remove Nitro Menu in Home ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+#private-channels [href="/store"] {
+    display: none;
+}
