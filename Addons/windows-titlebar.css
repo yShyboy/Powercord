@@ -1,0 +1,105 @@
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Add-Ons | Windows Titlebar |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+#app-mount {
+    border: none;
+    box-sizing:border-box;
+}
+
+.typeWindows-1za-n7 {
+    height:calc(var(--titlebar-height) - var(--titlebar-drag-margin));
+    margin-top:var(--titlebar-drag-margin);
+    position:relative;
+    border-bottom:1px solid var(--titlebar-background-color);
+}
+
+.platform-win .layer-3QrUeG {
+    top:calc(var(--titlebar-height) * -1);
+    padding-top:var(--titlebar-height);
+}
+
+.winButton-iRh8-Z,
+.winButton-iRh8-Z:hover,
+.winButton-iRh8-Z:active {
+    height:var(--titlebar-height);
+    width:var(--titlebar-button-width);
+    top:calc(var(--titlebar-drag-margin) * -1);
+    color:var(--titlebar-text-color);
+    transition:125ms ease;
+    cursor:default;
+}
+
+.winButton-iRh8-Z svg {
+    width:11px;
+    height:11px;
+}
+
+.winButtonMinMax-PBQ2gm:hover {
+    background:var(--titlebar-button-hover);
+}
+.winButtonMinMax-PBQ2gm:nth-child(3):after {
+      content:'';
+      width:11px;
+      height:11px;
+      -webkit-mask:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" version="1.1" width="10" height="10"><path d="M 0,0 0,10 10,10 10,0 Z M 1,1 9,1 9,9 1,9 Z"/></svg>') center/11px no-repeat;
+      background:var(--titlebar-text-color);
+}
+
+.winButtonMinMax-PBQ2gm:nth-child(3) svg {
+    display:none;
+}
+
+
+.winButtonMinMax-PBQ2gm:active {
+    background:var(--titlebar-button-active);
+}
+
+.winButtonClose-1HsbF-:hover,
+.winButtonClose-1HsbF-:active {
+    color:#fff;
+}
+
+.winButtonClose-1HsbF-:hover {
+    background:var(--titlebar-close-button-hover);
+}
+
+.winButtonClose-1HsbF-:active {
+    background:var(--titlebar-close-button-active);
+}
+
+.wordmarkWindows-1v0lYD {
+	width: 100vw;
+	background: var(--titlebar-background-color);
+	padding: 0;
+	display: flex;
+	align-items: center;
+    top:calc(var(--titlebar-drag-margin) * -1);
+	height:calc(var(--titlebar-height) + 1px);
+	pointer-events:none;
+	box-sizing:border-box;
+	border-bottom:0;
+}
+
+.wordmarkWindows-1v0lYD svg {
+    display:none;
+}
+
+.wordmarkWindows-1v0lYD::before {
+    content:'';
+    width:1em;
+    height:1em;
+    font-size:var(--titlebar-icon-font-size);
+    padding:0 1em;
+    background: url('https://raw.githubusercontent.com/CorellanStoma/Powercord/assets/Icons/discord.svg') center/contain no-repeat;
+}
+
+.wordmarkWindows-1v0lYD::after {
+    content: "\a CreArts Theme " var(--version);
+    color:var(--titlebar-text-color);
+    font-size:var(--titlebar-font-size);
+    font-weight:400;
+    font-family:'Segoe UI';
+}
