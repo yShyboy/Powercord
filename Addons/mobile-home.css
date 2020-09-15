@@ -5,7 +5,7 @@
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 
 .homeIcon-tEMBK1 {
-    background-color: var(--Color008);
+    background-color: var(--mobile-home-normal);
     border-radius: 90px;
     -webkit-mask:  url(https://raw.githack.com/CorellanStoma/Powercord/assets/Icons/direct_message.svg) no-repeat 50% 50%;
     width: 28px;
@@ -15,7 +15,7 @@
   }
 
 .homeIcon-tEMBK1:hover  {
-    background-color: var(--Color006);
+    background-color: var(--mobile-home-active);
     -webkit-mask:  url(https://raw.githack.com/CorellanStoma/Powercord/assets/Icons/direct_message.svg) no-repeat 50% 50%;
     width: 28px;
     height: 28px;
