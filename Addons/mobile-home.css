@@ -4,16 +4,25 @@
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 
-.listItem-2P_4kh:nth-child(1) .listItemWrapper-3X98Pc .wrapper-25eVIn svg foreignObject .wrapper-1BJsBx .childWrapper-anI2G9 .homeIcon-tEMBK1 {
-    background: url('https://raw.githack.com/CorellanStoma/Powercord/assets/Icons/direct_message.svg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+.homeIcon-tEMBK1 {
+    background-color: var(--Color008);
+    border-radius: 90px;
+    -webkit-mask:  url(https://raw.githack.com/CorellanStoma/Powercord/assets/Icons/direct_message.svg) no-repeat 50% 50%;
     width: 28px;
     height: 28px;
     margin-top: 2px;
     margin-left: 1px;
   }
+
+.homeIcon-tEMBK1:hover  {
+    background-color: var(--Color006);
+    -webkit-mask:  url(https://raw.githack.com/CorellanStoma/Powercord/assets/Icons/direct_message.svg) no-repeat 50% 50%;
+    width: 28px;
+    height: 28px;
+    margin-top: 2px;
+    margin-left: 1px;
+  }
+
   .homeIcon-tEMBK1 path {
     fill: transparent;
   }
