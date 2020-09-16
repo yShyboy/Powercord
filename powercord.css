@@ -101,9 +101,9 @@
     --deprecated-text-input-border: var(--Color005);
     --deprecated-text-input-border-disabled: var(--Color005);
     --activity-card-background: var(--Color004);
-    --channels-default: var(--Color004);
+    --channels-default: var(--Color008);
+    --text-normal: var(--Color007); 
     --text-muted: var(--Color009);
-    --text-normal: var(--Color006); 
     --interactive-normal: var(--Color008);
     --interactive-hover: var(--Color006);
     --interactive-active: var(--Color006);
@@ -114,13 +114,9 @@
     --toast-contents: var(--Color006);
     --toast-box-shadow: rgba(0, 0, 0, .2);
     --toast-border: var(--Color005);
-    --activity-card-background: var(--Color004);
     --header-secondary: var(--Color008);
     --channel-list: var(--Color003);
     --offline-color: var(--Color004);
-    --text-normal: var(--Color007); 
-    --text-muted: var(--Color009);
-    --channels-default: var(--Color008);
 }
 
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
