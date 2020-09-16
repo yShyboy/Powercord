@@ -15,3 +15,12 @@
     cursor: pointer;
     transform: scale(1.2);
 }
+
+.avatar-SmRMf2, {
+    z-index: 20;
+    transition: all .2s ease-in-out;
+  }
+  
+.avatar-SmRMf2:hover {
+      transform: scale(1.1);
+  }
