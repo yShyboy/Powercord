@@ -1,17 +1,256 @@
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*|||                                                                                               ||||||||*/
+/*||| This is the official CreArts theme created by CorellanStoma#1996                              ||||||||*/
+/*|||                                                                                               ||||||||*/
+/*||| CreArts Theme v1.2.1 (Beta)                                                                   ||||||||*/
+/*|||                                                                                               ||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/* Adding USRBG Support */
+@import url('https://discord-custom-covers.github.io/usrbg/dist/usrbg.css');
+
+/* Adding Blurple Recolor Support*/
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css");
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Add-Ons ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/* Add-Ons | Big Avatar */
+@import url("https://raw.githack.com/CorellanStoma/Powercord/assets/Addons/big-avatar.css");
+
+/* Add-Ons | Old Status Indicator */
+@import url("https://raw.githack.com/CorellanStoma/Powercord/assets/Addons/old-status-indicator.css");
+
+/* Add-Ons | Yellow Permissons */
+@import url("https://raw.githack.com/CorellanStoma/Powercord/assets/Addons/yellow-permissions.css");
+
+/* Add-Ons | Windows Titlebar */
+@import url("https://raw.githack.com/CorellanStoma/Powercord/assets/Addons/windows-titlebar.css");
+
+/* Add-Ons | Mobile Home */
+@import url("https://raw.githack.com/CorellanStoma/Powercord/assets/Addons/mobile-home.css");
+
+/* Add-Ons | Mobile Menu */
+@import url("https://raw.githack.com/CorellanStoma/Powercord/assets/Addons/mobile-menu.css");
+
+/* Add-Ons | Autocomplete Scrollable */
+@import url("https://raw.githack.com/CorellanStoma/Powercord/assets/Addons/autocomplete-scrollable.css");
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Animated |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/* Animated | Ping */
+@import url("https://raw.githack.com/CorellanStoma/Powercord/assets/Animated/ping.css");
+
+/* Animated | Home Button */
+@import url("https://raw.githack.com/CorellanStoma/Powercord/assets/Animated/home-button.css");
+
+/* Animated | Avatar Hover */
+@import url("https://raw.githack.com/CorellanStoma/Powercord/assets/Animated/avatar-hover.css");
+
+/* Animated | Icons Hover */
+@import url("https://raw.githack.com/CorellanStoma/Powercord/assets/Animated/icons-hover.css");
+
+/* Animated | Chat Highlight */
+@import url("https://raw.githack.com/CorellanStoma/Powercord/assets/Animated/chat-highlight.css");
+
+/* Animated | Channel Highlight */
+@import url("https://raw.githack.com/CorellanStoma/Powercord/assets/Animated/channel-highlight.css");
+
+/* Animated | Profile Badge */
+@import url("https://raw.githack.com/CorellanStoma/Powercord/assets/Animated/profile-badge.css");
+
+/* Animated | Card Hover */
+@import url("https://raw.githack.com/CorellanStoma/Powercord/assets/Animated/card-hover.css");
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Removed ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/* Removed | Removed the Edited label. */
+@import url("https://raw.githack.com/CorellanStoma/Powercord/assets/Removed/edited.css");
+
+/* Removed | Removed the Nitro home button, the nitro menu can still be accessed via the settings. */
+@import url("https://raw.githack.com/CorellanStoma/Powercord/assets/Removed/nitro-home.css");
+
+/* Removed | Removed the chat header at the beginning of the chat. */
+@import url("https://raw.githack.com/CorellanStoma/Powercord/assets/Removed/chat-header.css");
+
+/* Removed | Removed the Nitro & Gif Button in the Chatbox. Gifs can still be selected using the Emoji button. */
+@import url("https://raw.githack.com/CorellanStoma/Powercord/assets/Removed/gif-nitro-chat.css");
+
+/* Removed | Removed the closed folder background. */
+@import url("https://raw.githack.com/CorellanStoma/Powercord/assets/Removed/closed-folder-background.css");
+
+/* Removed | Removed the Note on the User Profile. */
+@import url("https://raw.githack.com/CorellanStoma/Powercord/assets/Removed/removed-profile-note.css");
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Database |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/* Database | CreArts*/
+@import url('https://raw.githack.com/CorellanStoma/Powercord/assets/Database/usrbg-crearts.css');
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Fonts ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/* Fonts | Adding Oxygen Font*/
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Plugins ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/* Plugins | Changed the design from "Better Formatting Redux" */
+@import url('https://raw.githack.com/CorellanStoma/Powercord/assets/Plugins/better-formatting-redux.css');
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Theme Settings |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+.theme-dark,
+.theme-light,
+:root {
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Version ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+    --version: "v1.2.1 (Beta)"; /*Theme Version*/
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Font |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+    --font: 'Oxygen';
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Theme Color ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/* Accent */
+    --Color001: #CD0952  ;
+    --Color010: #27D8A1  ;
+
+/* Background */
+    --Color002: #3D4351  ;
+    --Color003: #303440  ;
+    --Color004: #2C303A  ;
+    --Color005: #252830  ;
+    
+/* Text */	
+    --Color006: #FFFFFF  ;
+    --Color007: #C8CDDB  ;
+    --Color008: #989FB1  ;
+    --Color009: #6C7180  ;
+
+/* Shadow */
+
+    --Color011: #00000040  ;
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Blurple Recolor ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+    --accentcolor: 205,9,82;
+    --linkcolor: 205,9,82;
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Windows 10 Titlebar ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+    --titlebar-height: 30px;
+    --titlebar-drag-margin: 4px;
+    --titlebar-button-width: 48px;
+    --titlebar-font-size: 12px;
+    --titlebar-icon-font-size: 12px;
+    --titlebar-background-color:var(--Color005);
+    --titlebar-text-color:var(--Color008);
+    --titlebar-button-hover:var(--Color003);
+    --titlebar-button-active:var(--Color003);
+    --titlebar-close-button-hover:var(--Color001);
+    --titlebar-close-button-active:var(--Color001);
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Mobile Home Button |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+    --mobile-home-normal: var(--Color008);
+    --mobile-home-active: var(--Color006);
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Variables ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+    --background-primary: var(--Color004);
+    --background-secondary: var(--Color005);
+    --background-secondary-alt: var(--Color002);
+    --background-tertiary: var(--Color005);
+    --background-accent: var(--Color001);
+    --background-floating: var(--Color005);
+    --background-modifier-hover: var(--Color004);
+    --background-modifier-active: var(--Color004);
+    --background-modifier-selected: var(--Color001);
+    --background-modifier-accent: var(--Color002);
+    --channeltextarea-background: var(--Color001);
+    --deprecated-card-bg: var(--Color004);
+    --deprecated-card-editable-bg: var(--Color004);
+    --deprecated-text-input-bg: var(--Color005);
+    --deprecated-text-input-border: var(--Color005);
+    --deprecated-text-input-border-disabled: var(--Color005);
+    --activity-card-background: var(--Color004);
+    --channels-default: var(--Color004);
+    --text-muted: var(--Color009);
+    --text-normal: var(--Color006); 
+    --interactive-normal: var(--Color008);
+    --interactive-hover: var(--Color006);
+    --interactive-active: var(--Color006);
+    --interactive-muted: var(--Color009);
+    --header-primary: var(--Color006);
+    --toast-background: var(--Color006);
+    --toast-header: var(--Color005);
+    --toast-contents: var(--Color006);
+    --toast-box-shadow: rgba(0, 0, 0, .2);
+    --toast-border: var(--Color005);
+    --activity-card-background: var(--Color004);
+    --header-secondary: var(--Color008);
+    --channel-list: var(--Color003);
+    --offline-color: var(--Color004);
+    --text-normal: var(--Color007); 
+    --text-muted: var(--Color009);
+    --channels-default: var(--Color008);
+}
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||| Settings |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 
-/* Background */
+/* Version */
 
+.info-1VyQPT .size12-3cLvbJ:last-child::after{
+    content: "\a CreArts Theme " var(--version);
+    text-transform: none;
+    white-space: pre;
+}
+
+/* Background */
 .sidebarRegionScroller-3MXcoP, .contentRegionScroller-26nc1e {
     background: var(--Color003);
 }
 
 /* Sidebar */
-
 .sidebar-CFHs9e {
     background: var(--Color004);
     border-radius: 24px;    
@@ -29,7 +268,6 @@
 }
 
 /* Content */
-
 .contentColumnDefault-1VQkGM {
 	background: var(--Color004);
    	border-radius: 24px;
@@ -41,7 +279,6 @@
 }
 
 /* Highlight */
-
 .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ {
     background: var(--Color001);
 	border-radius: 90px;
@@ -52,16 +289,14 @@
 }
 
 /* Card */
-
 .card-3Qj_Yx {
 	background: var(--Color003);
     border-radius: 24px;	
     position: relative;
-    border: none;;
+    border: none;
 }
 
 /* Buttons */
-
 .lookOutlined-3sRXeN.colorRed-1TFJan {
     background: var(--Color005);
     color: var(--Color008);
@@ -75,7 +310,6 @@
 }
 
 /* Dropdown*/
-
 .css-1a8reka-control {
     background: var(--Color005);
     border-radius: 90px;
@@ -89,7 +323,6 @@
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 
 /* Profile */
-
 .userSettingsAccount-2eMFVR .userInfoEditing-1CEzdT, .userSettingsAccount-2eMFVR .userInfoViewing-16kqK3 {
     background: var(--Color003);
     border-radius: 24px;
@@ -97,7 +330,6 @@
 }
 
 /* Blur Details */
-
 .theme-dark .userSettingsAccount-2eMFVR .viewBody-2Qz-jg {
 	filter: blur(4px);
 }
@@ -108,7 +340,6 @@
 }
 
 /* Two-Factor | Background */
-
 .root-1gCeng {
     border-radius: 24px;
   }
@@ -130,25 +361,18 @@
 }
 
 /* Two-Factor | Input */
-
 .input-cIJ7To {
     border-radius: 24px;
     background-color: var(--Color005);
     border: none;
 }
 
-.inputDefault-_djjkz {
-    padding: 20px;
-}
-
 /* Two-Factor Button */
-
 .grow-q77ONN, .sizeIcon-1-kvKI {
   border-radius: 24px;
 }
 
 /* Two-Factor Text */
-
 .userSettingsSecurity-3IYeMF .isEnabled-24g9qA {
     color: var(--Color010);
 }
@@ -160,7 +384,6 @@
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 
 /* Round Checkbox */
-
 .box-mmYMsp {
     border-radius: 90px;
 }
@@ -178,14 +401,12 @@
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 
 /* Social Icons Background */
-
 .accountBtn-2Nozo3 .accountBtnInner-sj5jLs {
     background-color: var(--Color003);
 	border-radius: 90px;
 }
 
 /* Social Card */
-
 .theme-dark .elevationLow-2lY09M {
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -212,7 +433,6 @@
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 
 /* Blur Mail */
-
 .subText-V8PTt8 {
 	filter: blur(2px);
 }
@@ -518,6 +738,10 @@
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 
+.videoGridWrapper-2BDlMX {
+    background: #000;
+}
+
 /* Grabber */
 
 .grabber-3mFHz2 {
@@ -614,42 +838,6 @@
 
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
-/*||| Powercord Settings | General Settings ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
-/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
-/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
-
-/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
-/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
-/*||| Powercord Settings | Updater |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
-/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
-/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
-
-/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
-/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
-/*||| Powercord Settings | Plugins |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
-/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
-/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
-
-/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
-/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
-/*||| Powercord Settings | Themes ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
-/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
-/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
-
-/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
-/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
-/*||| Powercord Settings | Spotify |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
-/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
-/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
-
-/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
-/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
-/*||| Powercord Settings | Emote Utility |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
-/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
-/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
-
-/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
-/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||| Settings | Change Log ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
@@ -670,6 +858,7 @@
 
 .guilds-1SWlCJ .scroller-2TZvBN {
     padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .wrapper-1Rf91z {
@@ -706,9 +895,9 @@
 	border-radius: 0 90px 90px 0;
     position: fixed;
     z-index: 3;
-    top: 45px;
 	padding-bottom: 4px;
-	padding-top: 12px;
+    padding-top: 12px;
+    top:calc(var(--titlebar-height) + 14px);
 }
 
 /* Create Server Button */
@@ -742,11 +931,22 @@
     border-radius: 90px;
 }
 
+/* Round Home Button */
+
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+    background: var(--Color001);
+    border-radius: 90px;
+}
+
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||| Channel Panel ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+
+
+
 
 .container-PNkimc {
     background: var(--Color003);
@@ -860,7 +1060,7 @@
 
 /* Game Icon */
 
-.gameIcon-gg34Dz {
+.gameIcon-gg34Dz, .icon-3Oovq9 {
     border-radius: 90px;
     color: var(--Color006);
 }
@@ -917,6 +1117,12 @@
 .container-1r6BKw {
     padding-right: 12px;
     padding-left: 0px;
+}
+
+/* Selected Icon */
+
+.selected-1GqIat .icon-22AiRD {
+    color: var(--Color006);
 }
 
 /* Update Icon */
@@ -984,55 +1190,12 @@
     background-color: var(--Color003);
 }
 
-/* Avatar */
 
-.avatar-1BDn8e {
-    width: 60px;
-    height: 60px;
-  	background: var(--Color003);
-	margin-left: 10px;
-}
-
-/* Text Align */
-
-.cozy-3raOZG .messageContent-2qWWxC {
-	font-family: var(--font);
-    text-align: justify;    
-	margin-left: -72px;
-    padding-left: 72px;
-	margin-right: 40px;
-}
-
-/* Text Spacing */
-
-.compact-T3H92H.wrapper-2a6GCs, .cozy-3raOZG.wrapper-2a6GCs {
-	padding-left: 110px;
-    padding-top: .600rem;
-    padding-bottom: .600rem;
-}
 
 /* No Scrollbar*/
 
 .scrollerBase-289Jih::-webkit-scrollbar{
     display: none;
-}
-
-/* Hide edit */
-
-.edited-3sfAzf {
-    display: none;
-}
-
-/* Round Image */
-
-.imageWrapper-2p5ogY img {
-    border-radius: 16px;
-}
-
-/* Round video */
-
-.wrapper-2TxpI8 {
-    border-radius: 16px;
 }
 
 /* Reaction */
@@ -1042,15 +1205,26 @@
     border-radius: 1rem;
 }
 
-/* No Chat Header */
 
-.hasDivider-20M1le {
-	display: none;
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Chat Panel | Round Media |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/* Round Image */
+
+.imageWrapper-2p5ogY {
+    border-radius: 24px;
 }
 
-.container-3zqIcM {
-	display: none;
+/* Round video */
+
+.wrapper-2TxpI8 {
+    border-radius: 24px;
 }
+
+/* Round video */
 
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
@@ -1066,7 +1240,11 @@
 }
 
 .embedAuthorName-3mnTWj, .embedAuthorNameLink-1gVryT, .embedDescription-1Cuq9a, .embedFieldName-NFrena, .embedFieldValue-nELq2s, .embedFooterText-28V_Wb, .embedLink-1G1K1D, .embedProvider-3k5pfl, .embedTitle-3OXDkz, .embedTitleLink-1Zla9e {
-    text-align: justify;
+    text-align: left;
+}
+
+.imageWrapper-2p5ogY {
+    border-radius: 24px;
 }
 
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
@@ -1178,8 +1356,8 @@
 
 :root .isUnread-3Ef-o9:not(.hasContent-1cNJDh){
     margin: 10px 47px;
-    margin-top: 5px !important;
-    margin-bottom: 5px !important;
+    margin-top: 5px  ;
+    margin-bottom: 5px  ;
 }
 
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
@@ -1254,9 +1432,7 @@
 
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
-/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* ||| Chatbox Panel |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
-/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 
@@ -1285,7 +1461,7 @@
     background: var(--Color005);
     max-height: 37vh;
   	border-radius: 24px;
-	z-index: 3;
+	z-index: 90;
 	padding-top: 4px;
 	padding-bottom: 4px;
 }
@@ -1322,25 +1498,31 @@
 
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
-/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* ||| Member Panel ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
-/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 
 .members-1998pB, .members-1998pB>div {
     background-color: var(--Color004);
 	border-radius: 24px;
-
 	margin-left: 12px;
-	margin-bottom: 25px;
+    margin-bottom: 25px;
+}
+
+.members-1998pB {
+    width: 236px;
+    padding-bottom: 40px;
+
+}
+
+.member-3-YXUe {
+    margin-left: 2px;
+    padding-right: 8px;
 }
 
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
-/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* ||| Home ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
-/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 
@@ -1432,18 +1614,9 @@
 
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
-/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* ||| Home | Active Now |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
-/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
-
-/* Empty Card */
-
-.emptyCard-1RJw8n {
-    border-radius: 24px;
-    padding: 24px;
-}
 
 /* No Header */
 
@@ -1451,6 +1624,12 @@
 	display: none;
 }
 
+/* Empty Card */
+
+.emptyCard-1RJw8n {
+    border-radius: 24px;
+    padding: 24px;
+}
 
 /* Background */
 
@@ -1503,9 +1682,7 @@
 
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
-/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* ||| Call ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
-/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 
@@ -1538,7 +1715,7 @@ div[class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1G
 .centerButton-3CaNcJ,
 .colorable-1bkp8v.white-3GPOIp.active-1QRrIS, .colorable-1bkp8v.white-3GPOIp:hover,
 .colorable-1bkp8v.red-33-Lnk {
-    background: none !important;
+    background: none  ;
 }
 
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
@@ -1581,11 +1758,10 @@ div[class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1G
 
 .theme-dark .pageWrapper-1PgVDX {
     border-radius: 24px;
-    background-color: var(--Color004);
+    background: var(--Color004);
     padding: 0px 0px 0px 0px;
     margin: 12px 13px 25px 12px;
 }
-
 
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
@@ -1593,7 +1769,7 @@ div[class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1G
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 
-/* Background*/
+/* Search Bar */
 
 .search-1iTphC .searchBox-2_mAlO {
     background-color: var(--Color005);
@@ -1607,23 +1783,28 @@ div[class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1G
     padding-bottom: 40px;
 }
 
-/* Search Bar | No Glow*/
-.search-1iTphC .searchBox-2_mAlO:focus, .search-1iTphC .searchBox-2_mAlO:focus-within {
-    box-shadow: none;
-} 
-
-/* Search Bar | Text */
 .search-1iTphC .searchBox-2_mAlO .searchBoxInput-K6mkng {
     color: var(--Color008);
     font-size: 16px;
     padding-left: 24px;
 }
 
-/* Server Card */
+.search-1iTphC .searchBox-2_mAlO:focus, .search-1iTphC .searchBox-2_mAlO:focus-within {
+    box-shadow: none;
+} 
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Discover | Server Card  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+
+/* Background */
 
 .theme-dark .card-3DjzTQ, .theme-dark .iconMask-3b8GzQ {
+    background: var(--Color005);
     border-radius: 24px;
-    background-color: var(--Color005);
 	box-shadow: none;
 }
 
@@ -1631,7 +1812,6 @@ div[class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1G
     padding-top: 20px;
 }
     
-
 /* Avatar */
 
 .avatar-22otdK {
@@ -1762,49 +1942,78 @@ div[class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1G
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 
-/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
-/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
-/* ||| Modals | Verify Phone |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
-/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
-/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Login |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 
-.phoneField-38N1bJ .countryButton-3xq3Ts {
-    border-radius: 24px;
+.theme-dark.authBox-hW6HRx {
+    color: #72767d;
+    background: var(--Color004);
+}
+
+.fallbackImage-31Sk4m {
+    display: none;
+}
+
+.platform-win .splashBackground-1FRCko:before {
+    display: none;
 }
 
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
-/* ||| Modals | Profile Card |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* ||| Modals | User Popout ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 
-.textarea-2r0oV8 {
-    background: var(--Color005);
-    color: var(--Color009);
-    border: none;
-    max-height: 88px;
+/* Header */
+
+.header-2BwW8b {
+    background: var(--Color003);
+    padding-bottom: 0px;
+}
+
+.reduce-motion .userPopout-3XzG_A {
+    background: var(--Color003);
+}
+
+/* Background */
+
+.theme-dark .headerNormal-T_seeN {
+    background: transparent;
+}
+
+.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
+    background: var(--Color004);
+    color: var(--Color006);
+}
+
+.userPopout-3XzG_A {
+	box-shadow: 0px 2px 12px 4px var(--Color011);
+    width: 260px;
+    border-radius: 24px;
+    max-height: calc(90vh - 120px);
 }
 
 .bodyInnerWrapper-Z8WDxe {
     padding-right: 20px;
 }
 
-/* Background */
+/* Activity */
 
-.theme-dark .headerNormal-T_seeN {
-    background: var(--Color005);
+.activity-11LB_k {
+    background: var(--Color003);
+    padding: 16px;
 }
 
-.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
-    background: var(--Color004);
-    color: #fffc;
-}
+/* Status */
 
-.userPopout-3XzG_A {
-	box-shadow: 0px 8px 12px -2px var(--Color005);
-    width: 260px;
-    border-radius: 24px;
-    max-height: calc(100vh - 20px);	
+.customStatus-1bh2V9 {
+    background: var(--Color003);
+    padding: 16px 16px 16px 16px;
+    text-align: justify;
+    line-height: 22px;
 }
 
 /* Roles */
@@ -1831,66 +2040,169 @@ div[class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1G
     pointer-events: none;
 }
 
-/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
-/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
-/* ||| Modals | Profile ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
-/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
-/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* Note */
 
-
-
-
-
-.infoScroller-3EYYns {
-    margin: 20px;
-    padding: 8px;
+.textarea-2r0oV8::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
 }
 
 
+/* Footer */
 
+.footer-1fjuF6 {
+    padding: 0 16px 16px;
+}
 
+/* USRBG */
 
+.reduce-motion .userPopout-3XzG_A {
+	transform:translateZ(0);
+}
 
+.userPopout-3XzG_A .wrapper-3t9DeA::after {
+	content: '';
+	position: fixed;
+	top: 0;
+	left: 0;
+    width: 260px;
+    height: 174px;
+	z-index: -1;
+	pointer-events: none;
+	opacity: 1;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: var(--user-popout-position) center;
+    background-image: var(--user-background);
+    filter: brightness(50%) blur(0px);
+}
 
+.userPopout-3XzG_A  .header-2BwW8b,
+.userPopout-3XzG_A  .scroller-2FKFPG,
+.userPopout-3XzG_A  .footer-1fjuF6 {
+	z-index: 1;
+}
 
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* ||| Modals | User Profile |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 
+/* Header */
 
+.header-QKLPzZ {
+    margin-bottom: 90px;
+}
+
+.topSectionNormal-2-vo2m {
+    background: transparent;
+}
+
+/* Activity */
+
+.topSectionPlaying-1J5E4n, .topSectionSpotify-1lI0-P {
+    background: transparent;
+}
+
+.activity-1ythUs {
+    background: var(--Color003);
+}
 
 /* Background */
 
 .root-SR8cQa {
-    background-color: var(--Color004);
     border-radius: 24px;
-    overflow: hidden;
-    position: relative;
 	width: 900px;
+    background-color: transparent;
 }
 
-.body-3ND3kc {
-    height: 500px;
-    background-color: var(--Color004);
+.body-3ND3kc, .tabBarContainer-1s1u-z {
+    background: var(--Color004);
 }
 
+.infoScroller-3EYYns {
+    padding: 20px 12px 20px 12px;
+}
+
+/* Divider */
+
+.userInfoSection-2acyCx+.userInfoSection-2acyCx {
+    border: none;
+}
 
 /* Note */
 
+.userInfoSectionHeader-CBvMDh {
+    display: none;
+    padding: 0px;
+}
+
+.note-QfFU8y {
+    padding: 2px 12px 2px 12px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: -20px;
+    margin-top: -20px;
+}
+
 .note-QfFU8y textarea {
-    border-radius: 24px;
-    font-size: 15px;
+    border-radius: 12px;
+    font-size: 14px;
     line-height: 16px;
-    padding-left: 20px;
-	padding-top: 14px;
+    padding: 4px;
 }
 
 /* Icon Tabs */
 
 .connectedAccount-36nQx7 {
+    z-index: 3;
     margin-top: 20px;
+    margin-right: 12px;
+    margin-left: 12px;
+
     padding: 8px 14px 8px 8px;
-    width: 240px;
+    width: 230px;
     background: var(--Color002);
 	border-radius: 90px;
 	border: none;
+}
+
+/* Spotify */
+
+.assetsLargeImage-eYwpTX {
+    border-radius: 90px;
+    display: block;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+/* USRBG */
+
+.header-QKLPzZ .wrapper-3t9DeA::after {
+    z-index: -1;
+    content:'';
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    width: 900px;
+    height: 240px;
+    opacity: 1;
+    background: var(--user-background) center/cover no-repeat;
+    background-color: var(--Color002);
+
+    filter: brightness(60%) blur(0px);
+  }
+
+
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* ||| Modals | Verify Phone |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+.phoneField-38N1bJ .countryButton-3xq3Ts {
+    border-radius: 24px;
 }
 
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
@@ -2038,7 +2350,7 @@ div[class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1G
 .wrapper-2aW0bm {
     background-color: var(--Color002);
     border-radius: 24px;
-	box-shadow: 0px 8px 8px -2px var(--Color005);
+	box-shadow: 0px 2px 12px 4px var(--Color011)
 }
 
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
@@ -2273,164 +2585,172 @@ div[class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1G
     background: var(--Color002);
 	border-radius: 90px;
 }
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Modals | Upload  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+.theme-dark .uploadModal-2ifh8j {
+    background: var(--Color003);
+    border-radius: 24px;
+    box-shadow: none;
+}
+
+.theme-dark .footer-3mqk7D {
+    background: var(--Color005);
+    border-radius: 0 0 24px 24px;
+    box-shadow: none;
+}
+
+
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j {
+    margin-top: -33px;
+    margin-left: 16px;
+    margin-right: 16px;
+    width: 104px;
+    height: 104px;
+    background-color: #fff;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 90px;
+    background-size: contain;
+    -webkit-box-shadow: 0 2px 8px rgba(0,0,0,.4);
+    box-shadow: 0 2px 8px rgba(0,0,0,.4);
+}
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Modals | Delete Message ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+.theme-dark .message-2qRu38 {
+    background-color: var(--Color004);
+    border: none;
+    box-shadow: none;
+    border-radius: 24px;
+}
+
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||| Modals | Create a Server  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 
-
-
 /* Background */
 
-.theme-dark .root-1gCeng {
+.theme-light .root-1gCeng {
+    background: var(--Color003);
+    box-shadow: none;
+}
+
+.theme-light .footer-2gL1pp {
     background: var(--Color005);
+    box-shadow: none;
 }
 
-/* Header */
-
-.colorHeaderPrimary-26Jzh- {
-    color: var(--Color007);
-}
-
-/* Sub Header */
-
-.colorStandard-2KCXvj {
-    color: var(--Color007);
-}
-
-/* Text */
-
-.colorHeaderSecondary-3Sp3Ft {
-    color: var(--Color009);
-}
-
-/* Items */
-
-.itemContainer-1LSFks {
-    border-radius: 90px;
-    border: 1px solid var(--background-modifier-accent);
-    background: var(--Color004);
-    margin-bottom: 8px;
+.lookFilled-1Gx00P.colorGrey-2DXtkV {
+    color: var(--Color006);
+    background: var(--Color001);
 }
 
 /* Button */
 
-.lookFilled-1Gx00P.colorGrey-2DXtkV {
+.lookFilled-1Gx00P.colorGrey-2DXtkV:hover {
     color: var(--Color006);
-    background: var(--Color002);
+    background: var(--Color001);
+    filter: brightness(120%);
+}
+
+/* Template */
+
+.itemContainer-1LSFks {
+    border-radius: 24px;
+    border: none;
+    background: var(--Color004);
+    margin-bottom: 12px;
+}
+
+.templatesList-2E6rTe {
+    margin-top: 24px;
+    padding: 0px 12px 12px 12px;
+    height: 330px;
 }
 
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
-/*||| Add-Ons | Old Status indicator |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Modals | Set a custom status  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 
-.header-QKLPzZ rect[mask="url(#svg-mask-status-online)"], .userPopout-3XzG_A rect[mask="url(#svg-mask-status-online)"] {
-    fill: #43b581;
-}
-
-.wrapper-3t9DeA rect[mask="url(#svg-mask-status-idle)"] {
-    fill: #faa61a;
-    mask: url(#svg-mask-status-online);
-}
-
-.wrapper-3t9DeA rect[mask="url(#svg-mask-status-dnd)"] {
-    fill: #f04747;
-    mask: url(#svg-mask-status-online);
-}
-
-.wrapper-3t9DeA rect[mask="url(#svg-mask-status-streaming)"]{
-    mask: url(#svg-mask-status-online);
-}
-
-.wrapper-3t9DeA rect[mask="url(#svg-mask-status-offline)"] {
-    mask: url(#svg-mask-status-online);
-}
-
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
-/*||| Add-Ons | Button zoom effect  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Powercord | Spotify Modal ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 
-.button-14-BFJ, .grow-q77ONN, .iconItem-1-bXkn, .closeButton-2GCmT5, .icon-22AiRD, .addButton-1BORrom, .closeButton-1tv5uR {
-    transition: all .2s ease-in-out;
-}
-  
-.button-14-BFJ:hover, .iconItem-1-bXkn:hover, .closeButton-2GCmT5:hover, .icon-22AiRD:hover, .addButton-1BORro:hover, .closeButton-1tv5uR:hover {
-      transform: scale(1.2);
-}
-
-/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
-/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
-/*||| Add-Ons | Animated Ping ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
-/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
-/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
-
-.numberBadge-2s8kKX {
-    Color: var(--Color006);
-    animation: animatedPing 1.5s infinite ease-in-out;
-  }
-  @keyframes animatedPing {
-    0% {
-      transform: scale(1.0);
-    }
-    50% {
-      transform: scale(1.2);
-    }
-    100% {
-      transform: scale(1.0);
-    }
-  }
-
-/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
-/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
-/*||| Add-Ons | Windows Menu |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
-/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
-/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
-
-#app-mount > div[class*="titleBar"] > div[class*="wordmark"] {
-    margin-top: .2rem;
-  }
-  
-  #app-mount > div[class*="titleBar"] {
-    display: grid;
-    justify-content: right;
-    grid-template-columns: min-content min-content min-content;
-    direction: rtl;
-    height: 1.72rem;
-    margin: 5px 0px 0px 0px;
-  }
-  
-  #app-mount > div[class*="titleBar"] > div[class*="winButton"] {
-    display: grid;
-    width: 2.9rem;
-    height: 1.72rem;
-  }
-  
-  #app-mount > div[class*="titleBar"] > div[class*="winButton"] > svg {
-    height: 100%;
-    width: 100%;
-  
-    #app-mount > div[class*="app"] {
-    margin-top: -.18rem;
-    }
-  }
-
-
-
-/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
-/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
-/*||| Remove | Spotify Modal |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
-/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
-/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
-
-.powercord-spotify .spotify-seek-bar, .spotify-seek, .spotify-seek-bar-progress, .spotify-seek-bar-progress {
-	display: none;
-}
+/* Background */
 
 .powercord-spotify {
-	display: none;
+    position: fixed;
+    z-index: 2;
+    bottom: 12px;
+    right: 254px;
 }
+
+/*Buttons */
+
+.powercord-spotify > .container-3baos1:hover button.button-14-BFJ{
+    display: block;
+}
+
+.powercord-spotify > .container-3baos1 button[aria-checked="false"], .powercord-spotify > .container-3baos1 button:not([role="switch"]) {
+    display: none;
+}
+
+/* Extra Controls */
+
+.powercord-spotify .spotify-extra-controls {
+    display: none;
+}
+
+.powercord-spotify .spotify-extra-controls + .spotify-seek {
+    display: none;
+}
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Add-Ons | White Profile Badges |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+.header-QKLPzZ .powercord-badge-cutie img:first-child{display: none !important}
+.header-QKLPzZ .powercord-badge-cutie img:last-child{display:block!important}
+[class^="profileBadge-2BqF-Z powercord-badge-"]{color:white!important}
+[class*="BadgeStaff"]{filter: brightness(10)!important}
+[class*="BadgePartner"]{filter: brightness(10)!important}
+[class*="BadgeHypesquad-"]{filter: brightness(10)!important}
+[class*="BadgeHypeSquadOnlineHouse1"]{filter: brightness(10)!important}
+[class*="BadgeHypeSquadOnlineHouse2"]{filter: brightness(10)!important}
+[class*="BadgeHypeSquadOnlineHouse3"]{filter: brightness(10)!important}
+[class*="BadgeBugHunter"]{filter: brightness(10)!important}
+[class*="BadgeVerifiedDeveloper"]{filter: brightness(10)!important}
+[class*="BadgeEarlySupporter"]{background-image:url("/assets/ce15562552e3d70c56d5408cfeed2ffd.svg")!important}
+[class*="BadgePremium"]{background-image:url("/assets/379d2b3171722ef8be494231234da5d1.svg")!important}
+[class*="GuildSubscriberlvl1"]{background-image:url("/assets/a86d7e56b8208da9f8623ac49fe822dc.svg")!important}
+[class*="GuildSubscriberlvl2"]{background-image:url("/assets/e85361cd599b6722548c5a5f003b4b78.svg")!important}
+[class*="GuildSubscriberlvl3"]{background-image:url("/assets/7a0be61e754af3353d0871070f46a9d6.svg")!important}
+[class*="GuildSubscriberlvl4"]{background-image:url("/assets/88f960f400930f109847d0335685de69.svg")!important}
+[class*="GuildSubscriberlvl5"]{background-image:url("/assets/a99def5f819c077e5e5061cab741b7e6.svg")!important}
+[class*="GuildSubscriberlvl6"]{background-image:url("/assets/2cfb317f3db3963d8ded9a97ee967bac.svg")!important}
+[class*="GuildSubscriberlvl7"]{background-image:url("/assets/278736f579d810b11ddf308cb598b19e.svg")!important}
+[class*="GuildSubscriberlvl8"]{background-image:url("/assets/38e40f25802a0fdf480d9b855a37a2f3.svg")!important}
+[class*="GuildSubscriberlvl9"]{background-image:url("/assets/cfbc2d8ceacfacf07850f986c8165195.svg")!important}
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
