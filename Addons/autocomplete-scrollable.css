@@ -1,0 +1,21 @@
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Add-Ons | autocomplete scrollable ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+.autocomplete-1vrmpx {
+    max-height: calc(100vh - 200px);
+    overflow-y: scroll;
+}
+.autocomplete-1vrmpx::-webkit-scrollbar-thumb {
+    background-clip: padding-box;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    background-color: var(--scrollbar-thin-thumb);
+    min-height: 40px;
+}
+.autocomplete-1vrmpx::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
