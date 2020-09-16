@@ -239,8 +239,7 @@
 
 .content-1LAB8Z {
     background-color: var(--Color003);
-
-    border-radius: 0px;
+    border-radius: 24px 24px 0 0;
 }
 
 .theme-dark .footer-2gL1pp {
