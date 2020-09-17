@@ -26,3 +26,10 @@
 [data-user-id*="409265569460912128"] {
 	--user-background: url('https://i.imgur.com/sRkNbgN.jpg');
 }
+
+/*Chromus#4761*/
+
+[user_by_bdfdb*="511758610720751626"],
+[data-user-id*="511758610720751626"] {
+	--user-background: url('https://cdn.discordapp.com/attachments/598596167349174286/755994055724236880/animatedrlicon.gif');
+}
