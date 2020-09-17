@@ -2157,11 +2157,11 @@ div[class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1G
 /* Activity */
 
 .topSectionPlaying-1J5E4n {
-    background: transparent;
+    background: transparent !important;
 }
 
 .topSectionSpotify-1lI0-P {
-    background: transparent;
+    background: transparent !important;
 }
 
 .activity-1ythUs {
