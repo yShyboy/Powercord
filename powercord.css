@@ -18,28 +18,24 @@
 /*||| Version ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 
-    --version: "v1.2.1 (Beta) (Powercord)"; /*Theme Version*/
+    --version: "v1.2.1 (Beta) (Development)"; /*Theme Version*/
 
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
-/*||| Font |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Settings |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 
-    --font: 'Oxygen';
-
-/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
-/*||| Theme Color ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
-/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+--font: 'Oxygen';
 
 /* Accent */
-    --Color001: #628BF7;
-    --Color010: #2DDFB4;
+    --Color001: #CD0952;
+    --Color010: #27D8A1;
 
 /* Background */
-    --Color002: #484D70;
-    --Color003: #2D2C4A;
-    --Color004: #292843;
-    --Color005: #21203A;
-
+    --Color002: #3D4351;
+    --Color003: #303440;
+    --Color004: #2C303A;
+    --Color005: #252830;
+    
 /* Text */	
     --Color006: #FFFFFF;
     --Color007: #C8CDDB;
@@ -48,14 +44,19 @@
 
 /* Shadow */
 
-    --Color011: #00000040;
+    --shadow001: 0px 8px 12px 4px #00000040;
+
+/* Radius */
+
+    --Radius001: 24px; /* The value should not exceed 24px. */
+    --Radius002: 90px; /* The value should not exceed 90px. */
 
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||| Blurple Recolor ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 
-    --accentcolor: 114,137,218;
-    --linkcolor: 114,137,218;
+--accentcolor: 205,9,82;
+--linkcolor: 205,9,82;
 
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||| Windows 10 Titlebar ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
@@ -80,6 +81,7 @@
     --mobile-home-normal: var(--Color008);
     --mobile-home-active: var(--Color006);
 
+
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||| Variables ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
@@ -101,9 +103,9 @@
     --deprecated-text-input-border: var(--Color005);
     --deprecated-text-input-border-disabled: var(--Color005);
     --activity-card-background: var(--Color004);
-    --channels-default: var(--Color008);
-    --text-normal: var(--Color007); 
+    --channels-default: var(--Color004);
     --text-muted: var(--Color009);
+    --text-normal: var(--Color006); 
     --interactive-normal: var(--Color008);
     --interactive-hover: var(--Color006);
     --interactive-active: var(--Color006);
@@ -114,9 +116,13 @@
     --toast-contents: var(--Color006);
     --toast-box-shadow: rgba(0, 0, 0, .2);
     --toast-border: var(--Color005);
+    --activity-card-background: var(--Color004);
     --header-secondary: var(--Color008);
     --channel-list: var(--Color003);
     --offline-color: var(--Color004);
+    --text-normal: var(--Color007); 
+    --text-muted: var(--Color009);
+    --channels-default: var(--Color008);
 }
 
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
@@ -239,7 +245,17 @@
 
 .content-1LAB8Z {
     background-color: var(--Color003);
-    border-radius: 24px 24px 0 0;
+    border-radius: 24px 24px;
+}
+
+.theme-dark .root-1gCeng {
+    background-color: var(--Color003);
+	box-shadow: var(--shadow001);
+}
+
+.theme-dark .separator-2-RRj_ {
+    filter: brightness(110%) ;
+    box-shadow: none;
 }
 
 .theme-dark .footer-2gL1pp {
@@ -382,13 +398,6 @@
 	border-radius: 24px;
 }
 
-/* Payment History | Info Text */
-
-.theme-dark .codeRedemptionRedirect-1wVR4b {
-    color: var(--Color007);
-    background: var(--Color005);
-    border: none;
-}
 
 /* Payment History | Buttons */
 
@@ -693,6 +702,36 @@
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 
+/* Background */
+
+.theme-dark .card-FDVird{
+    background: var(--Color003);
+    border-radius: var(--Radius002);
+    box-shadow: none;
+}
+
+.theme-dark .card-FDVird::before{
+    background: var(--Color003);
+    border-radius: var(--Radius002);
+    box-shadow: none;
+}
+
+/* Add Game */
+
+.theme-dark .notDetected-33MY4s, .theme-light .notDetected-33MY4s {
+    background: var(--Color002);
+    border-radius: var(--Radius002);
+
+}
+
+/* Game */
+
+.game-1ipmAa {
+    position: relative;
+    padding: 20px;
+}
+
+
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||| App Settings | Text & Images |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
@@ -716,6 +755,26 @@
 /*||| App Settings | Language ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+.theme-dark .codeRedemptionRedirect-1wVR4b {
+    color: var(--Color007);
+    background: var(--Color005);
+    border: none;
+}
+
+.theme-dark .item-3eFBNF.selected-2DeaDa {
+    background: var(--Color002);
+    border-radius: var(--Radius002);
+    box-shadow: none;
+}
+
+.theme-dark .item-3eFBNF {
+    background: var(--Color003);
+    border-radius: var(--Radius002);
+    margin-top: 20px;
+    padding: 20px;
+    box-shadow: none;
+}
 
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
@@ -784,7 +843,7 @@
     z-index: 3;
 	padding-bottom: 4px;
     padding-top: 12px;
-    top:calc(var(--titlebar-height) + 14px);
+    top:calc(var(--titlebar-height) + 13px);
 }
 
 /* Create Server Button */
@@ -1711,6 +1770,9 @@ div[class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1G
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 
+.divider-3573oO {
+    display: none;
+}
 
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
@@ -1732,12 +1794,30 @@ div[class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1G
 	border-radius: 90px;
 }
 
-
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||| Server Menu | Roles  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/* Sidebar */
+
+.scroller-305q3I {
+    background: var(--Color004);
+    border-radius: var(--Radius001);
+    margin-top: 60px;
+}
+
+/* Content */
+
+.contentColumnMinimal-2iX-kP {
+    background: var(--Color004);
+    border-radius: 24px 24px 0 0;
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 0px;
+}
 
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
@@ -1762,41 +1842,65 @@ div[class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1G
     border-radius: 90px;
 }
 
+.defaultMarginh3-2iptLs, .defaultMarginh5-2mL-bP {
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||| Server Menu | Audit Log  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 
+/* Background */
+
+.contentRegion-3nDuYy {
+    background: var(--Color003);
+}
+
+
+/* Content */
+
+.customScroller-26gWhv>div {
+    background: var(--Color004);
+    border-radius: 24px 24px 0 0;
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 0px;
+    padding: 40px;
+}
+
+
+/* Card */
+
 .theme-dark .auditLog-3jNbM6 {
 	border: none;
-}
-
-.theme-dark .headerClickable-2IVFo9, .theme-dark .headerDefault-1wrJcN {
-    background: var(--Color005);
-    color: #b9bbbe;
-	border: none;
-	border-radius: 30px;
-}
-
-.theme-dark .headerExpanded-CUEwZ5 {
-    background: var(--Color005);
-	border-radius: 30px 30px 0 0;
-    color: #b9bbbe;
-}
-
-
-.theme-dark .changeDetails-bk98pu {
-    background: var(--Color003);
-	border-radius: 0 0 30px 30px;
 }
 
 .theme-dark .divider-1pnAR2 {
     display: none;
 }
 
-.theme-dark .timestamp-1mruiI {
-    color: var(--Color009);
+/* Card | Closed */
+
+.theme-dark .headerClickable-2IVFo9, .theme-dark .headerDefault-1wrJcN {
+    background: var(--Color005);
+	border-radius: var(--Radius001);
+}
+
+/* Card | Open */
+
+.theme-dark .headerExpanded-CUEwZ5 {
+    background: var(--Color005);
+	border-radius: var(--Radius001) var(--Radius001) 0 0;
+}
+
+
+.theme-dark .changeDetails-bk98pu {
+    background: var(--Color003);
+	border-radius: 0 0 var(--Radius001) var(--Radius001);
 }
 
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
@@ -1811,6 +1915,19 @@ div[class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1G
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 
+/* Input */
+
+.theme-dark .copyInputDefault-21sXtF {
+    border: none;
+}
+
+.theme-dark .copyInput-2rOSt7 {
+    background: var(--Color005);
+    border-radius: var(--Radius001);
+}
+
+
+
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||| Server Menu | Server Template  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
@@ -1819,15 +1936,72 @@ div[class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1G
 
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
-/*||| Server Menu | Overview  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Community | Overview  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
-/*||| Server Menu | Overview  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Server Menu | Welcome Screen  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/* Background */
+
+.enableContainer-6E-puu {
+    background: var(--Color003);
+    filter: brightness(110%);
+    border-radius: var(--Radius001) var(--Radius001) 0 0;
+}
+
+.previewContainer-1SS3uO {
+    background: var(--Color003);
+    padding: 16px;
+    border-radius: 0 0 var(--Radius001) var(--Radius001);
+
+}
+
+/* Description */
+
+.descriptionWrapper-1GiGtP {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.input-cIJ7To::-webkit-scrollbar {
+    display: none;
+}
+
+/* Text */
+
+.descriptionInput-3b30C8[placeholder] {
+    text-align: left;
+    padding-right: 24px;
+    padding-left: 24px;
+}
+
+/* Cards */
+
+.welcomeChannel-1rFrIO {
+    border-radius: var(--Radius002);
+    background-color: var(--background-primary);
+    margin-top: 8px;
+    padding: 20px 20px;
+}
+
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
+    color: var(--Color006);
+    background: var(--Color001);
+}
+
+/* Button */
+
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover {
+    color: var(--Color006);
+    background: var(--Color001);
+    filter: brightness(120%);
+}
 
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
@@ -1877,7 +2051,7 @@ div[class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1G
 }
 
 .userPopout-3XzG_A {
-	box-shadow: 0px 2px 12px 4px var(--Color011);
+	box-shadow: var(--shadow001);
     width: 260px;
     border-radius: 24px;
     max-height: calc(90vh - 120px);
@@ -2241,7 +2415,7 @@ div[class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1G
 .wrapper-2aW0bm {
     background-color: var(--Color002);
     border-radius: 24px;
-	box-shadow: 0px 2px 12px 4px var(--Color011)
+	box-shadow: var(--shadow001)
 }
 
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
@@ -2293,7 +2467,7 @@ div[class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1G
     position: relative;
     z-index: 1;
     max-height: none;
-	box-shadow: 0px 8px 12px -2px var(--Color005);
+	box-shadow: var(--shadow001);
     border: none;
     border-radius: 24px;
 	padding-bottom: 20px;
@@ -2321,13 +2495,22 @@ div[class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1G
 .theme-dark .colorPickerCustom-2CWBn2 {
     background: var(--Color004);
 	border: none;
-	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+	box-shadow: var(--shadow001);
+    border-radius: var(--Radius001);
 }
 
 .backdrop-1wrmKB {
 	opacity: 0.1;
     background: #fff;
     transform: translateZ(0px);
+}
+
+.saturation-1FDvtn>div, .saturation-1FDvtn>div>div {
+    border-radius: var(--Radius001);
+}
+
+.saturation-black {
+    border-radius: 20px;
 }
 
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
@@ -2575,6 +2758,60 @@ div[class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1G
 /*||| Modals | Set a custom status  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Modals | Select Server Region  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/* Background */
+
+.theme-dark .regionSelectModal-12e-57 {
+    background: var(--Color004) !important;
+}
+
+/* Header Text */
+
+.regionSelectModal-12e-57 .regionSelectModalHeader-21khC1 {
+    color: var(--Color007);
+    margin-bottom: 20px;
+}
+
+/* Buttons */
+
+.theme-dark .regionSelectModalOption-2DSIZ3 {
+    background: var(--Color003);
+    border: none;
+    border-radius: 90px;
+}
+
+.theme-dark .regionSelectModalOption-2DSIZ3:hover {
+    background: var(--Color002);
+    border: none;
+}
+
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Modals | Add Game Popout  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+.addGamePopout-2RY8Ju .actions-3wcPyD {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    margin-top: 12px;
+}
+
+.theme-dark .addGamePopout-2RY8Ju {
+    background: var(--Color003);
+    border-radius: 24px;
+    border: none;
+    box-shadow: var(--shadow001);
+    
+}
 
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
