@@ -97,7 +97,7 @@
 }
 
 .wordmarkWindows-1v0lYD::after {
-    content: "\a CreArts Theme " var(--version);
+    content: "\a CreArts " var(--version);
     color:var(--titlebar-text-color);
     font-size:var(--titlebar-font-size);
     font-weight:400;
